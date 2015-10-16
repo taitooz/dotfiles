@@ -1,0 +1,1 @@
+du -hcsx * | sort -h

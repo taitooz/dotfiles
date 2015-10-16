@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/home/taitooz/.config/openbox'
+let g:netrw_dirhist_2='/home/taitooz/despegar/email-marketing-tracking'
+let g:netrw_dirhist_3='/home/taitooz/old-projects/mogulbuzz/mogulbuzz-snd/main/dev/mogulbuzz/dev'
+let g:netrw_dirhist_4='/var/log/elasticsearch'
+let g:netrw_dirhist_5='/home/taitooz/despegar/demon'

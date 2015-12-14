@@ -158,7 +158,7 @@ export CATALINA_OPTS="-Xms1024m -Xmx1024m"
 export TOMCAT_HOME=$HOME/java/apache-tomcat-6.0.36
 #export CATALINA_HOME=/home/taitooz/java/apache-tomcat-6.0.36
 export SVN_EDITOR=vim
-export CASSANDRA_HOME=~/cassandra
+export CASSANDRA_HOME=~/cassandra/apache-cassandra-2.1.4
 export PATH=$PATH:$CASSANDRA_HOME/bin
 
 export HADOOP_HOME=$HOME/java/hadoop-2.7.0

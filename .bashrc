@@ -171,7 +171,7 @@ export HADOOP_HOME=$HOME/java/hadoop-2.7.0
 
 export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:/usr/share/pkgconfig"
 #PATH
-PATH=$PATH:$M2:${ANT_HOME}/bin:$HOME/scripts:$HOME/pScripts:$JAVA_HOME/bin
+PATH=$PATH:$M2:${ANT_HOME}/bin:$HOME/scripts:$HOME/pScripts:$JAVA_HOME/bin:spark-1.5.0-bin-hadoop2.6/bin/:/usr/local/go/bin
 
 #NODE NVM
 [ -s $HOME/.nvm/nvm.sh ] && . $HOME/.nvm/nvm.sh # This loads NVM

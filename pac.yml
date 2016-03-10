@@ -1,0 +1,3190 @@
+---
+__PAC__EXPORTED__FULL__: 1
+defaults:
+  allow more instances: ''
+  append group name: 1
+  audible bell: ''
+  auto accept key: 1
+  auto cluster: {}
+  auto hide connections list: ''
+  auto save: ''
+  autostart shell upon PAC start: ''
+  back color: '#000000000000'
+  bold color: '#cc62cc62cc62'
+  bold color like text: 1
+  check versions at start: ''
+  close terminal on disconnect: ''
+  close to tray: ''
+  command prompt: '[#%\$>]|\:\/\s*$'
+  confirm chains: 1
+  confirm exit: ''
+  connected color: '#0c0cbaba0000'
+  ctrl tab: last
+  cursor shape: block
+  debug: ''
+  disable ALT key bindings: ''
+  disable CTRL key bindings: ''
+  disable SHIFT key bindings: ''
+  disconnected color: '#ffff00000000'
+  enable tree lines: ''
+  global variables: {}
+  gui password: ''
+  hide connections submenu: ''
+  hide on connect: ''
+  hostkey changed prompt: '^.+ontinue connecting \((.+)\/(.+)\)\?\s*$'
+  how to switch tabs: ''
+  info font: monospace
+  keepass:
+    ask_user: ''
+    database: /home/taitooz
+    password: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    use_keepass: ''
+  local commands: []
+  new data color: '#00008888ffff'
+  open connections in tabs: 1
+  password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t](\\s+for\\s+)*|[c|C]ontrase.a|Enter passphrase for key '.+')\\s*:\\s*$"
+  ping port before connect: ''
+  ping port timeout: 1
+  press any key prompt: .*(any key to continue|tecla para continuar).*
+  prevent F11: ''
+  prevent mouse over show tree: ''
+  protected color: '#ffffb0b02222'
+  protected set: background
+  proxy ip: ''
+  proxy pass: ''
+  proxy port: 8080
+  proxy user: ''
+  record command history: 1
+  remember main size: ''
+  remote commands: []
+  remote host changed prompt: .*ffending .*key in (.+?)\:(\d+).*
+  remove control chars: ''
+  save on exit: 1
+  save session logs: ''
+  screenshots external viewer: /usr/bin/xdg-open
+  screenshots use external viewer: ''
+  selection to clipboard: 1
+  session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
+  session logs amount: 10
+  session logs folder: /home/taitooz/.config/pac/session_logs
+  shell binary: /bin/bash
+  shell directory: /home/taitooz
+  shell options: -login
+  show commands box: 0
+  show connections tooltips: ''
+  show favourites in unity: ''
+  show global commands box: ''
+  show screenshots: 1
+  show statistics: 1
+  show tray icon: ''
+  skip first chain expect: 1
+  sort groups first: 1
+  start PAC tree on: connections
+  start at session startup: 0
+  start iconified: ''
+  start main maximized: 1
+  start maximized: 1
+  sudo password: 53616c7465645f5f3132333435363738246b8c24e7c1a87e58018a4945fd0de0
+  sudo prompt: '[__PAC__SUDO__PROMPT__]'
+  sudo show password: ''
+  tabs in main window: 1
+  tabs position: top
+  terminal backspace: auto
+  terminal character encoding: UTF-8
+  terminal emulation: xterm
+  terminal font: Monospace 9
+  terminal scrollback lines: 5000
+  terminal show status bar: 1
+  terminal transparency: 0
+  terminal windows hsize: 800
+  terminal windows vsize: 600
+  text color: '#cc62cc62cc62'
+  timeout command: 60
+  timeout connect: 40
+  tree font: Normal
+  tree on right side: ''
+  unsplit disconnected terminals: ''
+  use bw icon: ''
+  use gui password: ''
+  use gui password tray: ''
+  use login shell to connect: ''
+  use proxy: ''
+  use system proxy: 1
+  username prompt: '([l|L]ogin|[u|U]suario|([u|U]ser-?)*[n|N]ame.*|[u|U]ser)\s*:\s*$'
+  version: 4.5.5.5
+  visible bell: ''
+  when no more tabs: 0
+  word characters: \.:_\/-A-Za-z0-9
+environments:
+  03e5d85b-d85b-4365-99ce-692a52c046eb:
+    _is_group: 1
+    _protected: 0
+    children:
+      195c3aa6-a11c-490c-9711-27590006fa7b: 1
+      1ea40bd1-ec0e-40c9-af67-29fa6c137e9b: 1
+      273d6f35-e6eb-49c9-84c3-f3714c751855: 1
+      dbc05688-d29a-4360-9f0a-ba8f98f5620a: 1
+    description: Connection group 'emt'
+    name: emt
+    parent: 755570a8-3600-443a-9025-83baf5ae8a74
+    screenshots: []
+  04a7539b-5ee5-465a-95bc-46cd8515ab8a:
+    _is_group: 1
+    _protected: 0
+    children:
+      78c454f0-6fd0-484f-a3f3-8b729ff58a72: 1
+    description: Connection group 'esearch'
+    name: esearch
+    parent: 6c2b4af8-fa45-44dc-8855-205f35a6ec51
+    screenshots: []
+  0bec4f17-ac75-4bb4-8d53-02e1738f56d6:
+    KPX title regexp: .*poc.*
+    _is_group: 0
+    _protected: 0
+    auth fallback: 1
+    auth type: publickey
+    autoreconnect: ''
+    autossh: ''
+    children: {}
+    cluster: []
+    description: Connection with 'poc-00'
+    embed: 0
+    expect: []
+    favourite: 0
+    infer from KPX where: 3
+    infer user pass from KPX: ''
+    ip: 10.254.173.166
+    local after: []
+    local before: []
+    local connected: []
+    mac: ''
+    macros: []
+    method: SSH
+    name: poc-02
+    options: ' -X'
+    parent: cded9b56-0e17-48af-be38-c90c078ccf3c
+    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase user: despegar
+    port: 22
+    prepend command: ''
+    proxy ip: ''
+    proxy pass: ''
+    proxy port: 8080
+    proxy user: ''
+    public key: /home/taitooz/.ssh/keys/ba_myKey
+    quote command: ''
+    remove control chars: ''
+    save session logs: ''
+    screenshots:
+      - '/home/taitooz/.config/pac/screenshots/pac_screenshot_18137598,8700289.jpg'
+    search pass on KPX: 0
+    send slow: 0
+    send string active: ''
+    send string every: 60
+    send string intro: 1
+    send string txt: ''
+    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
+    session logs amount: 10
+    session logs folder: /home/taitooz/.config/pac/session_logs
+    startup launch: ''
+    startup script: ''
+    startup script name: sample1.pl
+    terminal options:
+      audible bell: ''
+      back color: '#000000000000'
+      bold color: '#cc62cc62cc62'
+      bold color like text: 1
+      command prompt: '[#%\$>]|\:\/\s*$'
+      cursor shape: block
+      disable ALT key bindings: ''
+      disable CTRL key bindings: ''
+      disable SHIFT key bindings: ''
+      open in tab: 1
+      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
+      tab back color: '#000000000000'
+      terminal backspace: auto
+      terminal character encoding: UTF-8
+      terminal emulation: xterm
+      terminal font: Monospace 9
+      terminal scrollback lines: 5000
+      terminal select words: \.:_\/-A-Za-z0-9
+      terminal transparency: 0
+      terminal window hsize: 800
+      terminal window vsize: 600
+      text color: '#cc62cc62cc62'
+      timeout command: 40
+      timeout connect: 40
+      use personal settings: ''
+      use tab back color: ''
+      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
+      visible bell: ''
+    title: 'poc - poc-02'
+    use prepend command: ''
+    use proxy: 0
+    use sudo: ''
+    user: ''
+    variables: []
+  195c3aa6-a11c-490c-9711-27590006fa7b:
+    KPX title regexp: '.*emt - emt-06.*'
+    _is_group: 0
+    _protected: 0
+    auth fallback: 1
+    auth type: publickey
+    autoreconnect: ''
+    autossh: ''
+    cluster: []
+    description: Connection with 'emt-09'
+    embed: 0
+    expect: []
+    favourite: 0
+    infer from KPX where: 3
+    infer user pass from KPX: ''
+    ip: emt-09
+    local after: []
+    local before: []
+    local connected: []
+    mac: ''
+    macros: []
+    method: SSH
+    name: emt-09
+    options: ' -X'
+    parent: 03e5d85b-d85b-4365-99ce-692a52c046eb
+    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase user: despegar
+    port: 22
+    prepend command: ''
+    proxy ip: ''
+    proxy pass: ''
+    proxy port: 8080
+    proxy user: ''
+    public key: /home/taitooz/.ssh/keys/myKey
+    quote command: ''
+    remove control chars: ''
+    save session logs: ''
+    screenshots:
+      - '/home/taitooz/.config/pac/screenshots/pac_screenshot_110974879,36779.jpg'
+    search pass on KPX: 0
+    send slow: 0
+    send string active: ''
+    send string every: 60
+    send string intro: 1
+    send string txt: ''
+    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
+    session logs amount: 10
+    session logs folder: /home/taitooz/.config/pac/session_logs
+    startup launch: ''
+    startup script: ''
+    startup script name: sample1.pl
+    terminal options:
+      audible bell: ''
+      back color: '#000000000000'
+      bold color: '#cc62cc62cc62'
+      bold color like text: 1
+      command prompt: '[#%\$>]|\:\/\s*$'
+      cursor shape: block
+      disable ALT key bindings: ''
+      disable CTRL key bindings: ''
+      disable SHIFT key bindings: ''
+      open in tab: 1
+      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
+      tab back color: '#000000000000'
+      terminal backspace: auto
+      terminal character encoding: UTF-8
+      terminal emulation: xterm
+      terminal font: Monospace 9
+      terminal scrollback lines: 5000
+      terminal select words: \.:_\/-A-Za-z0-9
+      terminal transparency: 0
+      terminal window hsize: 800
+      terminal window vsize: 600
+      text color: '#cc62cc62cc62'
+      timeout command: 40
+      timeout connect: 40
+      use personal settings: ''
+      use tab back color: ''
+      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
+      visible bell: ''
+    title: 'emt - emt-09'
+    use prepend command: ''
+    use proxy: 0
+    use sudo: ''
+    user: ''
+    variables: []
+  1c0fa166-2a04-42d3-87e1-ef5db02295ca:
+    _is_group: 1
+    _protected: 0
+    children:
+      32faf1b7-0fd9-4588-869e-be09de9672c5: 1
+      461a2c8d-c0cb-4d80-889b-d8d13ea2e35f: 1
+    description: Connection group 'LOGS'
+    name: LOGS
+    parent: __PAC__ROOT__
+    screenshots: []
+  1c1a9faf-173b-48fb-aa66-82fe108e4cd4:
+    KPX title regexp: '.*RC - caronte-rc.*'
+    _is_group: 0
+    _protected: 0
+    auth fallback: 1
+    auth type: publickey
+    autoreconnect: ''
+    autossh: ''
+    children: {}
+    cluster: []
+    description: Connection with 'caronte-rc'
+    embed: 0
+    expect: []
+    favourite: 0
+    infer from KPX where: 3
+    infer user pass from KPX: ''
+    ip: 10.254.169.93
+    local after: []
+    local before: []
+    local connected: []
+    mac: ''
+    macros: []
+    method: SSH
+    name: uns-rc-00
+    options: ' -X'
+    parent: a9fa1ef4-c353-49fd-925c-9ec51a5af5ea
+    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase user: despegar
+    port: 22
+    prepend command: ''
+    proxy ip: ''
+    proxy pass: ''
+    proxy port: 8080
+    proxy user: ''
+    public key: /home/taitooz/.ssh/keys/ba_myKey
+    quote command: ''
+    remove control chars: ''
+    save session logs: ''
+    screenshots:
+      - '/home/taitooz/.config/pac/screenshots/pac_screenshot_38948417,004409.jpg'
+    search pass on KPX: 0
+    send slow: 0
+    send string active: ''
+    send string every: 60
+    send string intro: 1
+    send string txt: ''
+    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
+    session logs amount: 10
+    session logs folder: /home/taitooz/.config/pac/session_logs
+    startup launch: ''
+    startup script: ''
+    startup script name: sample1.pl
+    terminal options:
+      audible bell: ''
+      back color: '#000000000000'
+      bold color: '#cc62cc62cc62'
+      bold color like text: 1
+      command prompt: '[#%\$>]|\:\/\s*$'
+      cursor shape: block
+      disable ALT key bindings: ''
+      disable CTRL key bindings: ''
+      disable SHIFT key bindings: ''
+      open in tab: 1
+      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
+      tab back color: '#000000000000'
+      terminal backspace: auto
+      terminal character encoding: UTF-8
+      terminal emulation: xterm
+      terminal font: Monospace 9
+      terminal scrollback lines: 5000
+      terminal select words: \.:_\/-A-Za-z0-9
+      terminal transparency: 0
+      terminal window hsize: 800
+      terminal window vsize: 600
+      text color: '#cc62cc62cc62'
+      timeout command: 40
+      timeout connect: 40
+      use personal settings: ''
+      use tab back color: ''
+      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
+      visible bell: ''
+    title: 'uns - uns-rc-00'
+    use prepend command: ''
+    use proxy: 0
+    use sudo: ''
+    user: ''
+    variables: []
+  1cafafff-ceed-4498-8365-e2c3cdad15c0:
+    KPX title regexp: '.*RC - jenkins.*'
+    _is_group: 0
+    _protected: 0
+    auth fallback: 1
+    auth type: publickey
+    autoreconnect: ''
+    autossh: ''
+    cluster: []
+    description: Connection with 'jenkins'
+    embed: 0
+    expect: []
+    favourite: 0
+    infer from KPX where: 3
+    infer user pass from KPX: ''
+    ip: jenkins-co-00.servers.despegar.it
+    local after: []
+    local before: []
+    local connected: []
+    mac: ''
+    macros: []
+    method: SSH
+    name: jenkins
+    options: ' -X'
+    parent: 6c2b4af8-fa45-44dc-8855-205f35a6ec51
+    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase user: despegar
+    port: 22
+    prepend command: ''
+    proxy ip: ''
+    proxy pass: ''
+    proxy port: 8080
+    proxy user: ''
+    public key: /home/taitooz/.ssh/keys/ba_myKey
+    quote command: ''
+    remove control chars: ''
+    save session logs: ''
+    screenshots:
+      - '/home/taitooz/.config/pac/screenshots/pac_screenshot_99066879,1181188.jpg'
+    search pass on KPX: 0
+    send slow: 0
+    send string active: ''
+    send string every: 60
+    send string intro: 1
+    send string txt: ''
+    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
+    session logs amount: 10
+    session logs folder: /home/taitooz/.config/pac/session_logs
+    startup launch: ''
+    startup script: ''
+    startup script name: sample1.pl
+    terminal options:
+      audible bell: ''
+      back color: '#000000000000'
+      bold color: '#cc62cc62cc62'
+      bold color like text: 1
+      command prompt: '[#%\$>]|\:\/\s*$'
+      cursor shape: block
+      disable ALT key bindings: ''
+      disable CTRL key bindings: ''
+      disable SHIFT key bindings: ''
+      open in tab: 1
+      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
+      tab back color: '#000000000000'
+      terminal backspace: auto
+      terminal character encoding: UTF-8
+      terminal emulation: xterm
+      terminal font: Monospace 9
+      terminal scrollback lines: 5000
+      terminal select words: \.:_\/-A-Za-z0-9
+      terminal transparency: 0
+      terminal window hsize: 800
+      terminal window vsize: 600
+      text color: '#cc62cc62cc62'
+      timeout command: 40
+      timeout connect: 40
+      use personal settings: ''
+      use tab back color: ''
+      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
+      visible bell: ''
+    title: 'RC - jenkins'
+    use prepend command: ''
+    use proxy: 0
+    use sudo: ''
+    user: ''
+    variables: []
+  1ea40bd1-ec0e-40c9-af67-29fa6c137e9b:
+    KPX title regexp: '.*emt - emt-06.*'
+    _is_group: 0
+    _protected: 0
+    auth fallback: 1
+    auth type: publickey
+    autoreconnect: ''
+    autossh: ''
+    children: {}
+    cluster: []
+    description: Connection with 'emt-06'
+    embed: 0
+    expect: []
+    favourite: 0
+    infer from KPX where: 3
+    infer user pass from KPX: ''
+    ip: emt-08
+    local after: []
+    local before: []
+    local connected: []
+    mac: ''
+    macros: []
+    method: SSH
+    name: emt-08
+    options: ' -X'
+    parent: 03e5d85b-d85b-4365-99ce-692a52c046eb
+    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase user: despegar
+    port: 22
+    prepend command: ''
+    proxy ip: ''
+    proxy pass: ''
+    proxy port: 8080
+    proxy user: ''
+    public key: /home/taitooz/.ssh/keys/myKey
+    quote command: ''
+    remove control chars: ''
+    save session logs: ''
+    screenshots:
+      - '/home/taitooz/.config/pac/screenshots/pac_screenshot_85983037,0163621.jpg'
+    search pass on KPX: 0
+    send slow: 0
+    send string active: ''
+    send string every: 60
+    send string intro: 1
+    send string txt: ''
+    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
+    session logs amount: 10
+    session logs folder: /home/taitooz/.config/pac/session_logs
+    startup launch: ''
+    startup script: ''
+    startup script name: sample1.pl
+    terminal options:
+      audible bell: ''
+      back color: '#000000000000'
+      bold color: '#cc62cc62cc62'
+      bold color like text: 1
+      command prompt: '[#%\$>]|\:\/\s*$'
+      cursor shape: block
+      disable ALT key bindings: ''
+      disable CTRL key bindings: ''
+      disable SHIFT key bindings: ''
+      open in tab: 1
+      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
+      tab back color: '#000000000000'
+      terminal backspace: auto
+      terminal character encoding: UTF-8
+      terminal emulation: xterm
+      terminal font: Monospace 9
+      terminal scrollback lines: 5000
+      terminal select words: \.:_\/-A-Za-z0-9
+      terminal transparency: 0
+      terminal window hsize: 800
+      terminal window vsize: 600
+      text color: '#cc62cc62cc62'
+      timeout command: 40
+      timeout connect: 40
+      use personal settings: ''
+      use tab back color: ''
+      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
+      visible bell: ''
+    title: 'emt - emt-08'
+    use prepend command: ''
+    use proxy: 0
+    use sudo: ''
+    user: ''
+    variables: []
+  21af84c5-2e5e-44ec-a5cc-01821c5e89bb:
+    KPX title regexp: '.*RC - log.rc.despegar.it.*'
+    _is_group: 0
+    _protected: 0
+    auth fallback: 1
+    auth type: userpass
+    autoreconnect: ''
+    autossh: ''
+    cluster: []
+    description: Connection with 'log.rc.despegar.it'
+    embed: 0
+    expect: []
+    favourite: 0
+    infer from KPX where: 3
+    infer user pass from KPX: ''
+    ip: log.rc.despegar.it
+    local after: []
+    local before: []
+    local connected: []
+    mac: ''
+    macros: []
+    method: SSH
+    name: log.rc.despegar.it
+    options: ' -X'
+    parent: 32faf1b7-0fd9-4588-869e-be09de9672c5
+    pass: 53616c7465645f5f313233343536373825028de60b00a36d
+    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase user: ''
+    port: 22
+    prepend command: ''
+    proxy ip: ''
+    proxy pass: ''
+    proxy port: 8080
+    proxy user: ''
+    public key: /home/taitooz
+    quote command: ''
+    remove control chars: ''
+    save session logs: ''
+    screenshots:
+      - '/home/taitooz/.config/pac/screenshots/pac_screenshot_85760740,9491918.jpg'
+    search pass on KPX: 0
+    send slow: 0
+    send string active: ''
+    send string every: 60
+    send string intro: 1
+    send string txt: ''
+    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
+    session logs amount: 10
+    session logs folder: /home/taitooz/.config/pac/session_logs
+    startup launch: ''
+    startup script: ''
+    startup script name: sample1.pl
+    terminal options:
+      audible bell: ''
+      back color: '#000000000000'
+      bold color: '#cc62cc62cc62'
+      bold color like text: 1
+      command prompt: '[#%\$>]|\:\/\s*$'
+      cursor shape: block
+      disable ALT key bindings: ''
+      disable CTRL key bindings: ''
+      disable SHIFT key bindings: ''
+      open in tab: 1
+      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
+      tab back color: '#000000000000'
+      terminal backspace: auto
+      terminal character encoding: UTF-8
+      terminal emulation: xterm
+      terminal font: Monospace 9
+      terminal scrollback lines: 5000
+      terminal select words: \.:_\/-A-Za-z0-9
+      terminal transparency: 0
+      terminal window hsize: 800
+      terminal window vsize: 600
+      text color: '#cc62cc62cc62'
+      timeout command: 40
+      timeout connect: 40
+      use personal settings: ''
+      use tab back color: ''
+      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
+      visible bell: ''
+    title: 'RC - log.rc.despegar.it'
+    use prepend command: ''
+    use proxy: 0
+    use sudo: ''
+    user: logger
+    variables: []
+  2212e06e-6125-4c6c-a951-aedbff6acb0a:
+    KPX title regexp: '.*calcas - calcas-00.*'
+    _is_group: 0
+    _protected: 0
+    auth fallback: 1
+    auth type: publickey
+    autoreconnect: ''
+    autossh: ''
+    children: {}
+    cluster: []
+    description: Connection with 'calcas-04'
+    embed: 0
+    expect: []
+    favourite: 0
+    infer from KPX where: 3
+    infer user pass from KPX: ''
+    ip: calcas-04
+    local after: []
+    local before: []
+    local connected: []
+    mac: ''
+    macros: []
+    method: SSH
+    name: calcas-04
+    options: ' -X'
+    parent: d0db4674-c0cf-4c1d-b509-922cbe1a701c
+    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase user: despegar
+    port: 22
+    prepend command: ''
+    proxy ip: ''
+    proxy pass: ''
+    proxy port: 8080
+    proxy user: ''
+    public key: /home/taitooz/.ssh/keys/myKey
+    quote command: ''
+    remove control chars: ''
+    save session logs: ''
+    screenshots:
+      - '/home/taitooz/.config/pac/screenshots/pac_screenshot_48800430,7091164.jpg'
+    search pass on KPX: 0
+    send slow: 0
+    send string active: ''
+    send string every: 60
+    send string intro: 1
+    send string txt: ''
+    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
+    session logs amount: 10
+    session logs folder: /home/taitooz/.config/pac/session_logs
+    startup launch: ''
+    startup script: ''
+    startup script name: sample1.pl
+    terminal options:
+      audible bell: ''
+      back color: '#000000000000'
+      bold color: '#cc62cc62cc62'
+      bold color like text: 1
+      command prompt: '[#%\$>]|\:\/\s*$'
+      cursor shape: block
+      disable ALT key bindings: ''
+      disable CTRL key bindings: ''
+      disable SHIFT key bindings: ''
+      open in tab: 1
+      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
+      tab back color: '#000000000000'
+      terminal backspace: auto
+      terminal character encoding: UTF-8
+      terminal emulation: xterm
+      terminal font: Monospace 9
+      terminal scrollback lines: 5000
+      terminal select words: \.:_\/-A-Za-z0-9
+      terminal transparency: 0
+      terminal window hsize: 800
+      terminal window vsize: 600
+      text color: '#cc62cc62cc62'
+      timeout command: 40
+      timeout connect: 40
+      use personal settings: ''
+      use tab back color: ''
+      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
+      visible bell: ''
+    title: 'calcas - calcas-04'
+    use prepend command: ''
+    use proxy: 0
+    use sudo: ''
+    user: ''
+    variables: []
+  24413ca9-ee94-4674-9a71-cc0713b55d81:
+    KPX title regexp: .*poc.*
+    _is_group: 0
+    _protected: 0
+    auth fallback: 1
+    auth type: publickey
+    autoreconnect: ''
+    autossh: ''
+    children: {}
+    cluster: []
+    description: Connection with 'poc-00'
+    embed: 0
+    expect: []
+    favourite: 0
+    infer from KPX where: 3
+    infer user pass from KPX: ''
+    ip: 10.254.173.158
+    local after: []
+    local before: []
+    local connected: []
+    mac: ''
+    macros: []
+    method: SSH
+    name: poc-00
+    options: ' -X'
+    parent: cded9b56-0e17-48af-be38-c90c078ccf3c
+    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase user: despegar
+    port: 22
+    prepend command: ''
+    proxy ip: ''
+    proxy pass: ''
+    proxy port: 8080
+    proxy user: ''
+    public key: /home/taitooz/.ssh/keys/ba_myKey
+    quote command: ''
+    remove control chars: ''
+    save session logs: ''
+    screenshots:
+      - '/home/taitooz/.config/pac/screenshots/pac_screenshot_66779478,3566711.jpg'
+    search pass on KPX: 0
+    send slow: 0
+    send string active: ''
+    send string every: 60
+    send string intro: 1
+    send string txt: ''
+    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
+    session logs amount: 10
+    session logs folder: /home/taitooz/.config/pac/session_logs
+    startup launch: ''
+    startup script: ''
+    startup script name: sample1.pl
+    terminal options:
+      audible bell: ''
+      back color: '#000000000000'
+      bold color: '#cc62cc62cc62'
+      bold color like text: 1
+      command prompt: '[#%\$>]|\:\/\s*$'
+      cursor shape: block
+      disable ALT key bindings: ''
+      disable CTRL key bindings: ''
+      disable SHIFT key bindings: ''
+      open in tab: 1
+      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
+      tab back color: '#000000000000'
+      terminal backspace: auto
+      terminal character encoding: UTF-8
+      terminal emulation: xterm
+      terminal font: Monospace 9
+      terminal scrollback lines: 5000
+      terminal select words: \.:_\/-A-Za-z0-9
+      terminal transparency: 0
+      terminal window hsize: 800
+      terminal window vsize: 600
+      text color: '#cc62cc62cc62'
+      timeout command: 40
+      timeout connect: 40
+      use personal settings: ''
+      use tab back color: ''
+      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
+      visible bell: ''
+    title: poc-00
+    use prepend command: ''
+    use proxy: 0
+    use sudo: ''
+    user: ''
+    variables: []
+  273d6f35-e6eb-49c9-84c3-f3714c751855:
+    KPX title regexp: '.*emt - emt-06.*'
+    _is_group: 0
+    _protected: 0
+    auth fallback: 1
+    auth type: publickey
+    autoreconnect: ''
+    autossh: ''
+    children: {}
+    cluster: []
+    description: Connection with 'emt-06'
+    embed: 0
+    expect: []
+    favourite: 0
+    infer from KPX where: 3
+    infer user pass from KPX: ''
+    ip: emt-06
+    local after: []
+    local before: []
+    local connected: []
+    mac: ''
+    macros: []
+    method: SSH
+    name: emt-06
+    options: ' -X'
+    parent: 03e5d85b-d85b-4365-99ce-692a52c046eb
+    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase user: despegar
+    port: 22
+    prepend command: ''
+    proxy ip: ''
+    proxy pass: ''
+    proxy port: 8080
+    proxy user: ''
+    public key: /home/taitooz/.ssh/keys/myKey
+    quote command: ''
+    remove control chars: ''
+    save session logs: ''
+    screenshots: []
+    search pass on KPX: 0
+    send slow: 0
+    send string active: ''
+    send string every: 60
+    send string intro: 1
+    send string txt: ''
+    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
+    session logs amount: 10
+    session logs folder: /home/taitooz/.config/pac/session_logs
+    startup launch: ''
+    startup script: ''
+    startup script name: sample1.pl
+    terminal options:
+      audible bell: ''
+      back color: '#000000000000'
+      bold color: '#cc62cc62cc62'
+      bold color like text: 1
+      command prompt: '[#%\$>]|\:\/\s*$'
+      cursor shape: block
+      disable ALT key bindings: ''
+      disable CTRL key bindings: ''
+      disable SHIFT key bindings: ''
+      open in tab: 1
+      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
+      tab back color: '#000000000000'
+      terminal backspace: auto
+      terminal character encoding: UTF-8
+      terminal emulation: xterm
+      terminal font: Monospace 9
+      terminal scrollback lines: 5000
+      terminal select words: \.:_\/-A-Za-z0-9
+      terminal transparency: 0
+      terminal window hsize: 800
+      terminal window vsize: 600
+      text color: '#cc62cc62cc62'
+      timeout command: 40
+      timeout connect: 40
+      use personal settings: ''
+      use tab back color: ''
+      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
+      visible bell: ''
+    title: 'emt - emt-06'
+    use prepend command: ''
+    use proxy: 0
+    use sudo: ''
+    user: ''
+    variables: []
+  2b56dcb4-095e-4515-9f18-b6e40364ece1:
+    KPX title regexp: .*poc.*
+    _is_group: 0
+    _protected: 0
+    auth fallback: 1
+    auth type: publickey
+    autoreconnect: ''
+    autossh: ''
+    children: {}
+    cluster: []
+    description: Connection with 'poc-00'
+    embed: 0
+    expect: []
+    favourite: 0
+    infer from KPX where: 3
+    infer user pass from KPX: ''
+    ip: 10.254.173.159
+    local after: []
+    local before: []
+    local connected: []
+    mac: ''
+    macros: []
+    method: SSH
+    name: poc-01
+    options: ' -X'
+    parent: cded9b56-0e17-48af-be38-c90c078ccf3c
+    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase user: despegar
+    port: 22
+    prepend command: ''
+    proxy ip: ''
+    proxy pass: ''
+    proxy port: 8080
+    proxy user: ''
+    public key: /home/taitooz/.ssh/keys/ba_myKey
+    quote command: ''
+    remove control chars: ''
+    save session logs: ''
+    screenshots: []
+    search pass on KPX: 0
+    send slow: 0
+    send string active: ''
+    send string every: 60
+    send string intro: 1
+    send string txt: ''
+    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
+    session logs amount: 10
+    session logs folder: /home/taitooz/.config/pac/session_logs
+    startup launch: ''
+    startup script: ''
+    startup script name: sample1.pl
+    terminal options:
+      audible bell: ''
+      back color: '#000000000000'
+      bold color: '#cc62cc62cc62'
+      bold color like text: 1
+      command prompt: '[#%\$>]|\:\/\s*$'
+      cursor shape: block
+      disable ALT key bindings: ''
+      disable CTRL key bindings: ''
+      disable SHIFT key bindings: ''
+      open in tab: 1
+      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
+      tab back color: '#000000000000'
+      terminal backspace: auto
+      terminal character encoding: UTF-8
+      terminal emulation: xterm
+      terminal font: Monospace 9
+      terminal scrollback lines: 5000
+      terminal select words: \.:_\/-A-Za-z0-9
+      terminal transparency: 0
+      terminal window hsize: 800
+      terminal window vsize: 600
+      text color: '#cc62cc62cc62'
+      timeout command: 40
+      timeout connect: 40
+      use personal settings: ''
+      use tab back color: ''
+      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
+      visible bell: ''
+    title: 'poc - poc-01'
+    use prepend command: ''
+    use proxy: 0
+    use sudo: ''
+    user: ''
+    variables: []
+  32faf1b7-0fd9-4588-869e-be09de9672c5:
+    _is_group: 1
+    _protected: 0
+    children:
+      21af84c5-2e5e-44ec-a5cc-01821c5e89bb: 1
+    description: Connection group 'RC'
+    name: RC
+    parent: 1c0fa166-2a04-42d3-87e1-ef5db02295ca
+    screenshots: []
+  36cba1df-0c09-42b0-bac4-a5c61d105b0a:
+    KPX title regexp: '.*emt-rc - emt-00.*'
+    _is_group: 0
+    _protected: 0
+    auth fallback: 1
+    auth type: publickey
+    autoreconnect: ''
+    autossh: ''
+    children: {}
+    cluster: []
+    description: Connection with 'emt-00'
+    embed: 0
+    expect: []
+    favourite: 0
+    infer from KPX where: 3
+    infer user pass from KPX: ''
+    ip: 10.254.169.57
+    local after: []
+    local before: []
+    local connected: []
+    mac: ''
+    macros: []
+    method: SSH
+    name: emt-00
+    options: ' -X'
+    parent: 8db6ac2b-f861-4d8a-bf24-2cec7e055a08
+    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase user: despegar
+    port: 22
+    prepend command: ''
+    proxy ip: ''
+    proxy pass: ''
+    proxy port: 8080
+    proxy user: ''
+    public key: /home/taitooz/.ssh/keys/ba_myKey
+    quote command: ''
+    remove control chars: ''
+    save session logs: ''
+    screenshots:
+      - '/home/taitooz/.config/pac/screenshots/pac_screenshot_87225021,1383352.jpg'
+    search pass on KPX: 0
+    send slow: 0
+    send string active: ''
+    send string every: 60
+    send string intro: 1
+    send string txt: ''
+    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
+    session logs amount: 10
+    session logs folder: /home/taitooz/.config/pac/session_logs
+    startup launch: ''
+    startup script: ''
+    startup script name: sample1.pl
+    terminal options:
+      audible bell: ''
+      back color: '#000000000000'
+      bold color: '#cc62cc62cc62'
+      bold color like text: 1
+      command prompt: '[#%\$>]|\:\/\s*$'
+      cursor shape: block
+      disable ALT key bindings: ''
+      disable CTRL key bindings: ''
+      disable SHIFT key bindings: ''
+      open in tab: 1
+      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
+      tab back color: '#000000000000'
+      terminal backspace: auto
+      terminal character encoding: UTF-8
+      terminal emulation: xterm
+      terminal font: Monospace 9
+      terminal scrollback lines: 5000
+      terminal select words: \.:_\/-A-Za-z0-9
+      terminal transparency: 0
+      terminal window hsize: 800
+      terminal window vsize: 600
+      text color: '#cc62cc62cc62'
+      timeout command: 40
+      timeout connect: 40
+      use personal settings: ''
+      use tab back color: ''
+      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
+      visible bell: ''
+    title: 'emt-rc - emt-00'
+    use prepend command: ''
+    use proxy: 0
+    use sudo: ''
+    user: ''
+    variables: []
+  3d70918a-591f-485b-bdd2-a3cf171bdcf7:
+    KPX title regexp: .*udp-misc01.*
+    _is_group: 0
+    _protected: 0
+    auth fallback: 1
+    auth type: userpass
+    autoreconnect: ''
+    autossh: ''
+    children: {}
+    cluster: []
+    description: Connection with 'udp-misc01'
+    embed: 0
+    expect: []
+    favourite: 0
+    infer from KPX where: 3
+    infer user pass from KPX: ''
+    ip: udp-misc01
+    local after: []
+    local before: []
+    local connected: []
+    mac: ''
+    macros: []
+    method: SSH
+    name: udp-misc01
+    options: ' -X'
+    parent: 461a2c8d-c0cb-4d80-889b-d8d13ea2e35f
+    pass: 53616c7465645f5f3132333435363738ce9c9f074c3c900d6abc6822b1bec974
+    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase user: ''
+    port: 22
+    prepend command: ''
+    proxy ip: ''
+    proxy pass: ''
+    proxy port: 8080
+    proxy user: ''
+    public key: /home/taitooz
+    quote command: ''
+    remove control chars: ''
+    save session logs: ''
+    screenshots:
+      - '/home/taitooz/.config/pac/screenshots/pac_screenshot_121264721,14615.jpg'
+    search pass on KPX: 0
+    send slow: 0
+    send string active: ''
+    send string every: 60
+    send string intro: 1
+    send string txt: ''
+    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
+    session logs amount: 10
+    session logs folder: /home/taitooz/.config/pac/session_logs
+    startup launch: ''
+    startup script: ''
+    startup script name: sample1.pl
+    terminal options:
+      audible bell: ''
+      back color: '#000000000000'
+      bold color: '#cc62cc62cc62'
+      bold color like text: 1
+      command prompt: '[#%\$>]|\:\/\s*$'
+      cursor shape: block
+      disable ALT key bindings: ''
+      disable CTRL key bindings: ''
+      disable SHIFT key bindings: ''
+      open in tab: 1
+      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
+      tab back color: '#000000000000'
+      terminal backspace: auto
+      terminal character encoding: UTF-8
+      terminal emulation: xterm
+      terminal font: Monospace 9
+      terminal scrollback lines: 5000
+      terminal select words: \.:_\/-A-Za-z0-9
+      terminal transparency: 0
+      terminal window hsize: 800
+      terminal window vsize: 600
+      text color: '#cc62cc62cc62'
+      timeout command: 40
+      timeout connect: 40
+      use personal settings: ''
+      use tab back color: ''
+      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
+      visible bell: ''
+    title: udp-misc01
+    use prepend command: ''
+    use proxy: 0
+    use sudo: ''
+    user: logger
+    variables: []
+  461a2c8d-c0cb-4d80-889b-d8d13ea2e35f:
+    _is_group: 1
+    _protected: 0
+    children:
+      3d70918a-591f-485b-bdd2-a3cf171bdcf7: 1
+      655013b1-6afd-4533-91cb-d9cc8aa71477: 1
+      842562ff-f04e-42c2-ad44-fcd93a0af1fd: 1
+    description: Connection group 'PROD'
+    name: PROD
+    parent: 1c0fa166-2a04-42d3-87e1-ef5db02295ca
+    screenshots: []
+  5ab92830-2e1a-4da0-919d-fad11ef836b4:
+    KPX title regexp: '.*caronte - caronte-00.*'
+    _is_group: 0
+    _protected: 0
+    auth fallback: 1
+    auth type: publickey
+    autoreconnect: ''
+    autossh: ''
+    children: {}
+    cluster: []
+    description: Connection with 'caronte-00'
+    embed: 0
+    expect: []
+    favourite: 0
+    infer from KPX where: 3
+    infer user pass from KPX: ''
+    ip: caronte-00
+    local after: []
+    local before: []
+    local connected: []
+    mac: ''
+    macros: []
+    method: SSH
+    name: caronte-00
+    options: ' -X'
+    parent: b6ecdebd-b596-4a55-88ef-1bd10b67a7bc
+    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase user: despegar
+    port: 22
+    prepend command: ''
+    proxy ip: ''
+    proxy pass: ''
+    proxy port: 8080
+    proxy user: ''
+    public key: /home/taitooz/.ssh/keys/myKey
+    quote command: ''
+    remove control chars: ''
+    save session logs: ''
+    screenshots:
+      - '/home/taitooz/.config/pac/screenshots/pac_screenshot_3431076,96870769.jpg'
+    search pass on KPX: 0
+    send slow: 0
+    send string active: ''
+    send string every: 60
+    send string intro: 1
+    send string txt: ''
+    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
+    session logs amount: 10
+    session logs folder: /home/taitooz/.config/pac/session_logs
+    startup launch: ''
+    startup script: ''
+    startup script name: sample1.pl
+    terminal options:
+      audible bell: ''
+      back color: '#000000000000'
+      bold color: '#cc62cc62cc62'
+      bold color like text: 1
+      command prompt: '[#%\$>]|\:\/\s*$'
+      cursor shape: block
+      disable ALT key bindings: ''
+      disable CTRL key bindings: ''
+      disable SHIFT key bindings: ''
+      open in tab: 1
+      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
+      tab back color: '#000000000000'
+      terminal backspace: auto
+      terminal character encoding: UTF-8
+      terminal emulation: xterm
+      terminal font: Monospace 9
+      terminal scrollback lines: 5000
+      terminal select words: \.:_\/-A-Za-z0-9
+      terminal transparency: 0
+      terminal window hsize: 800
+      terminal window vsize: 600
+      text color: '#cc62cc62cc62'
+      timeout command: 40
+      timeout connect: 40
+      use personal settings: ''
+      use tab back color: ''
+      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
+      visible bell: ''
+    title: 'caronte - caronte-00'
+    use prepend command: ''
+    use proxy: 0
+    use sudo: ''
+    user: ''
+    variables: []
+  63eb298f-d7db-4fa4-b797-3f527d8f3157:
+    KPX title regexp: '.*caronte - caronte-00.*'
+    _is_group: 0
+    _protected: 0
+    auth fallback: 1
+    auth type: publickey
+    autoreconnect: ''
+    autossh: ''
+    children: {}
+    cluster: []
+    description: Connection with 'caronte-04'
+    embed: 0
+    expect: []
+    favourite: 0
+    infer from KPX where: 3
+    infer user pass from KPX: ''
+    ip: caronte-04
+    local after: []
+    local before: []
+    local connected: []
+    mac: ''
+    macros: []
+    method: SSH
+    name: caronte-04
+    options: ' -X'
+    parent: b6ecdebd-b596-4a55-88ef-1bd10b67a7bc
+    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase user: despegar
+    port: 22
+    prepend command: ''
+    proxy ip: ''
+    proxy pass: ''
+    proxy port: 8080
+    proxy user: ''
+    public key: /home/taitooz/.ssh/keys/myKey
+    quote command: ''
+    remove control chars: ''
+    save session logs: ''
+    screenshots:
+      - '/home/taitooz/.config/pac/screenshots/pac_screenshot_105774937,551125.jpg'
+    search pass on KPX: 0
+    send slow: 0
+    send string active: ''
+    send string every: 60
+    send string intro: 1
+    send string txt: ''
+    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
+    session logs amount: 10
+    session logs folder: /home/taitooz/.config/pac/session_logs
+    startup launch: ''
+    startup script: ''
+    startup script name: sample1.pl
+    terminal options:
+      audible bell: ''
+      back color: '#000000000000'
+      bold color: '#cc62cc62cc62'
+      bold color like text: 1
+      command prompt: '[#%\$>]|\:\/\s*$'
+      cursor shape: block
+      disable ALT key bindings: ''
+      disable CTRL key bindings: ''
+      disable SHIFT key bindings: ''
+      open in tab: 1
+      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
+      tab back color: '#000000000000'
+      terminal backspace: auto
+      terminal character encoding: UTF-8
+      terminal emulation: xterm
+      terminal font: Monospace 9
+      terminal scrollback lines: 5000
+      terminal select words: \.:_\/-A-Za-z0-9
+      terminal transparency: 0
+      terminal window hsize: 800
+      terminal window vsize: 600
+      text color: '#cc62cc62cc62'
+      timeout command: 40
+      timeout connect: 40
+      use personal settings: ''
+      use tab back color: ''
+      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
+      visible bell: ''
+    title: 'caronte - caronte-04'
+    use prepend command: ''
+    use proxy: 0
+    use sudo: ''
+    user: ''
+    variables: []
+  655013b1-6afd-4533-91cb-d9cc8aa71477:
+    KPX title regexp: '.*PROD - log-udp01.*'
+    _is_group: 0
+    _protected: 1
+    auth fallback: 1
+    auth type: userpass
+    autoreconnect: ''
+    autossh: ''
+    cluster: []
+    description: Connection with 'log-udp01'
+    embed: 0
+    expect: []
+    favourite: 0
+    infer from KPX where: 3
+    infer user pass from KPX: ''
+    ip: udp01
+    local after: []
+    local before: []
+    local connected: []
+    mac: ''
+    macros: []
+    method: SSH
+    name: log-udp01
+    options: ' -X'
+    parent: 461a2c8d-c0cb-4d80-889b-d8d13ea2e35f
+    pass: 53616c7465645f5f3132333435363738ce9c9f074c3c900d6abc6822b1bec974
+    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase user: logger
+    port: 22
+    prepend command: ''
+    proxy ip: ''
+    proxy pass: ''
+    proxy port: 8080
+    proxy user: ''
+    public key: /home/taitooz/.ssh/keys/myKey
+    quote command: ''
+    remove control chars: ''
+    save session logs: ''
+    screenshots:
+      - '/home/taitooz/.config/pac/screenshots/pac_screenshot_29474245,7884126.jpg'
+    search pass on KPX: 0
+    send slow: 0
+    send string active: ''
+    send string every: 60
+    send string intro: 1
+    send string txt: ''
+    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
+    session logs amount: 10
+    session logs folder: /home/taitooz/.config/pac/session_logs
+    startup launch: ''
+    startup script: ''
+    startup script name: sample1.pl
+    terminal options:
+      audible bell: ''
+      back color: '#000000000000'
+      bold color: '#cc62cc62cc62'
+      bold color like text: 1
+      command prompt: '[#%\$>]|\:\/\s*$'
+      cursor shape: block
+      disable ALT key bindings: ''
+      disable CTRL key bindings: ''
+      disable SHIFT key bindings: ''
+      open in tab: 1
+      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
+      tab back color: '#000000000000'
+      terminal backspace: auto
+      terminal character encoding: UTF-8
+      terminal emulation: xterm
+      terminal font: Monospace 9
+      terminal scrollback lines: 5000
+      terminal select words: \.:_\/-A-Za-z0-9
+      terminal transparency: 0
+      terminal window hsize: 800
+      terminal window vsize: 600
+      text color: '#cc62cc62cc62'
+      timeout command: 40
+      timeout connect: 40
+      use personal settings: ''
+      use tab back color: ''
+      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
+      visible bell: ''
+    title: 'PROD - log-udp01'
+    use prepend command: ''
+    use proxy: 0
+    use sudo: ''
+    user: logger
+    variables: []
+  6b0c06f8-a641-4624-af97-853de665ed77:
+    KPX title regexp: '.*RC - caronte-rc.*'
+    _is_group: 0
+    _protected: 0
+    auth fallback: 1
+    auth type: publickey
+    autoreconnect: ''
+    autossh: ''
+    children: {}
+    cluster: []
+    description: Connection with 'caronte-rc'
+    embed: 0
+    expect: []
+    favourite: 0
+    infer from KPX where: 3
+    infer user pass from KPX: ''
+    ip: 10.254.173.41
+    local after: []
+    local before: []
+    local connected: []
+    mac: ''
+    macros: []
+    method: SSH
+    name: uns-rc-01
+    options: ' -X'
+    parent: a9fa1ef4-c353-49fd-925c-9ec51a5af5ea
+    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase user: despegar
+    port: 22
+    prepend command: ''
+    proxy ip: ''
+    proxy pass: ''
+    proxy port: 8080
+    proxy user: ''
+    public key: /home/taitooz/.ssh/keys/ba_myKey
+    quote command: ''
+    remove control chars: ''
+    save session logs: ''
+    screenshots:
+      - '/home/taitooz/.config/pac/screenshots/pac_screenshot_73944950,9776877.jpg'
+    search pass on KPX: 0
+    send slow: 0
+    send string active: ''
+    send string every: 60
+    send string intro: 1
+    send string txt: ''
+    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
+    session logs amount: 10
+    session logs folder: /home/taitooz/.config/pac/session_logs
+    startup launch: ''
+    startup script: ''
+    startup script name: sample1.pl
+    terminal options:
+      audible bell: ''
+      back color: '#000000000000'
+      bold color: '#cc62cc62cc62'
+      bold color like text: 1
+      command prompt: '[#%\$>]|\:\/\s*$'
+      cursor shape: block
+      disable ALT key bindings: ''
+      disable CTRL key bindings: ''
+      disable SHIFT key bindings: ''
+      open in tab: 1
+      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
+      tab back color: '#000000000000'
+      terminal backspace: auto
+      terminal character encoding: UTF-8
+      terminal emulation: xterm
+      terminal font: Monospace 9
+      terminal scrollback lines: 5000
+      terminal select words: \.:_\/-A-Za-z0-9
+      terminal transparency: 0
+      terminal window hsize: 800
+      terminal window vsize: 600
+      text color: '#cc62cc62cc62'
+      timeout command: 40
+      timeout connect: 40
+      use personal settings: ''
+      use tab back color: ''
+      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
+      visible bell: ''
+    title: 'uns - uns-rc-01'
+    use prepend command: ''
+    use proxy: 0
+    use sudo: ''
+    user: ''
+    variables: []
+  6c2b4af8-fa45-44dc-8855-205f35a6ec51:
+    _is_group: 1
+    _protected: 0
+    children:
+      04a7539b-5ee5-465a-95bc-46cd8515ab8a: 1
+      1cafafff-ceed-4498-8365-e2c3cdad15c0: 1
+      8db6ac2b-f861-4d8a-bf24-2cec7e055a08: 1
+      a9fa1ef4-c353-49fd-925c-9ec51a5af5ea: 1
+      cded9b56-0e17-48af-be38-c90c078ccf3c: 1
+      ddfac9c9-3ff9-486f-877e-6677a9287ed4: 1
+      ffa56a01-8ee9-457a-a65e-85b7c985915f: 1
+    description: Connection group 'RC'
+    name: RC
+    parent: 755570a8-3600-443a-9025-83baf5ae8a74
+    screenshots: []
+  6eacc543-1090-4868-8dd8-1a7b24ffc2e8:
+    _is_group: 1
+    _protected: 0
+    children:
+      8e97a14c-7385-4456-a991-0c7c7d391f97: 1
+      c9b847f4-8a90-45b7-9f58-89c165dc3dc9: 1
+    description: Connection group 'uns'
+    name: uns
+    parent: 755570a8-3600-443a-9025-83baf5ae8a74
+    screenshots: []
+  755570a8-3600-443a-9025-83baf5ae8a74:
+    _is_group: 1
+    _protected: 0
+    children:
+      03e5d85b-d85b-4365-99ce-692a52c046eb: 1
+      6c2b4af8-fa45-44dc-8855-205f35a6ec51: 1
+      6eacc543-1090-4868-8dd8-1a7b24ffc2e8: 1
+      8d31b40e-4627-4581-b654-9c91720ccf4a: 1
+      b6ecdebd-b596-4a55-88ef-1bd10b67a7bc: 1
+      d0db4674-c0cf-4c1d-b509-922cbe1a701c: 1
+    description: Connection group 'CLUSTERS'
+    name: CLUSTERS
+    parent: __PAC__ROOT__
+    screenshots: []
+  78c454f0-6fd0-484f-a3f3-8b729ff58a72:
+    KPX title regexp: '.*RC - caronte-rc.*'
+    _is_group: 0
+    _protected: 0
+    auth fallback: 1
+    auth type: publickey
+    autoreconnect: ''
+    autossh: ''
+    children: {}
+    cluster: []
+    description: Connection with 'caronte-rc'
+    embed: 0
+    expect: []
+    favourite: 0
+    infer from KPX where: 3
+    infer user pass from KPX: ''
+    ip: 10.254.168.144
+    local after: []
+    local before: []
+    local connected: []
+    mac: ''
+    macros: []
+    method: SSH
+    name: esearch-01
+    options: ' -X'
+    parent: 04a7539b-5ee5-465a-95bc-46cd8515ab8a
+    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase user: despegar
+    port: 22
+    prepend command: ''
+    proxy ip: ''
+    proxy pass: ''
+    proxy port: 8080
+    proxy user: ''
+    public key: /home/taitooz/.ssh/keys/ba_myKey
+    quote command: ''
+    remove control chars: ''
+    save session logs: ''
+    screenshots:
+      - '/home/taitooz/.config/pac/screenshots/pac_screenshot_24586387,7936436.jpg'
+    search pass on KPX: 0
+    send slow: 0
+    send string active: ''
+    send string every: 60
+    send string intro: 1
+    send string txt: ''
+    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
+    session logs amount: 10
+    session logs folder: /home/taitooz/.config/pac/session_logs
+    startup launch: ''
+    startup script: ''
+    startup script name: sample1.pl
+    terminal options:
+      audible bell: ''
+      back color: '#000000000000'
+      bold color: '#cc62cc62cc62'
+      bold color like text: 1
+      command prompt: '[#%\$>]|\:\/\s*$'
+      cursor shape: block
+      disable ALT key bindings: ''
+      disable CTRL key bindings: ''
+      disable SHIFT key bindings: ''
+      open in tab: 1
+      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
+      tab back color: '#000000000000'
+      terminal backspace: auto
+      terminal character encoding: UTF-8
+      terminal emulation: xterm
+      terminal font: Monospace 9
+      terminal scrollback lines: 5000
+      terminal select words: \.:_\/-A-Za-z0-9
+      terminal transparency: 0
+      terminal window hsize: 800
+      terminal window vsize: 600
+      text color: '#cc62cc62cc62'
+      timeout command: 40
+      timeout connect: 40
+      use personal settings: ''
+      use tab back color: ''
+      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
+      visible bell: ''
+    title: 'esearch - esearch-01'
+    use prepend command: ''
+    use proxy: 0
+    use sudo: ''
+    user: ''
+    variables: []
+  842562ff-f04e-42c2-ad44-fcd93a0af1fd:
+    KPX title regexp: .*ironports.*
+    _is_group: 0
+    _protected: 0
+    auth fallback: 1
+    auth type: userpass
+    autoreconnect: ''
+    autossh: ''
+    children: {}
+    cluster: []
+    description: Connection with 'ironports-logs'
+    embed: 0
+    expect: []
+    favourite: 0
+    infer from KPX where: 3
+    infer user pass from KPX: ''
+    ip: udp02
+    local after: []
+    local before: []
+    local connected: []
+    mac: ''
+    macros: []
+    method: SSH
+    name: ironports-logs
+    options: ' -X'
+    parent: 461a2c8d-c0cb-4d80-889b-d8d13ea2e35f
+    pass: 53616c7465645f5f31323334353637383ae3381791af7a994d10dbe38198db19
+    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase user: ''
+    port: 22
+    prepend command: ''
+    proxy ip: ''
+    proxy pass: ''
+    proxy port: 8080
+    proxy user: ''
+    public key: /home/taitooz
+    quote command: ''
+    remove control chars: ''
+    save session logs: ''
+    screenshots:
+      - '/home/taitooz/.config/pac/screenshots/pac_screenshot_92395557,7959667.jpg'
+    search pass on KPX: 0
+    send slow: 0
+    send string active: ''
+    send string every: 60
+    send string intro: 1
+    send string txt: ''
+    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
+    session logs amount: 10
+    session logs folder: /home/taitooz/.config/pac/session_logs
+    startup launch: ''
+    startup script: ''
+    startup script name: sample1.pl
+    terminal options:
+      audible bell: ''
+      back color: '#000000000000'
+      bold color: '#cc62cc62cc62'
+      bold color like text: 1
+      command prompt: '[#%\$>]|\:\/\s*$'
+      cursor shape: block
+      disable ALT key bindings: ''
+      disable CTRL key bindings: ''
+      disable SHIFT key bindings: ''
+      open in tab: 1
+      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
+      tab back color: '#000000000000'
+      terminal backspace: auto
+      terminal character encoding: UTF-8
+      terminal emulation: xterm
+      terminal font: Monospace 9
+      terminal scrollback lines: 5000
+      terminal select words: \.:_\/-A-Za-z0-9
+      terminal transparency: 0
+      terminal window hsize: 800
+      terminal window vsize: 600
+      text color: '#cc62cc62cc62'
+      timeout command: 40
+      timeout connect: 40
+      use personal settings: ''
+      use tab back color: ''
+      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
+      visible bell: ''
+    title: ' - ironports-logs'
+    use prepend command: ''
+    use proxy: 0
+    use sudo: ''
+    user: ironport
+    variables: []
+  857864c9-a987-435b-a454-68ca7210a574:
+    KPX title regexp: '.*emt-rc - emt-00.*'
+    _is_group: 0
+    _protected: 0
+    auth fallback: 1
+    auth type: publickey
+    autoreconnect: ''
+    autossh: ''
+    cluster: []
+    description: Connection with 'emt-00'
+    embed: 0
+    expect: []
+    favourite: 0
+    infer from KPX where: 3
+    infer user pass from KPX: ''
+    ip: 10.254.169.58
+    local after: []
+    local before: []
+    local connected: []
+    mac: ''
+    macros: []
+    method: SSH
+    name: emt-01
+    options: ' -X'
+    parent: 8db6ac2b-f861-4d8a-bf24-2cec7e055a08
+    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase user: despegar
+    port: 22
+    prepend command: ''
+    proxy ip: ''
+    proxy pass: ''
+    proxy port: 8080
+    proxy user: ''
+    public key: /home/taitooz/.ssh/keys/ba_myKey
+    quote command: ''
+    remove control chars: ''
+    save session logs: ''
+    screenshots:
+      - '/home/taitooz/.config/pac/screenshots/pac_screenshot_44740579,8620108.jpg'
+    search pass on KPX: 0
+    send slow: 0
+    send string active: ''
+    send string every: 60
+    send string intro: 1
+    send string txt: ''
+    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
+    session logs amount: 10
+    session logs folder: /home/taitooz/.config/pac/session_logs
+    startup launch: ''
+    startup script: ''
+    startup script name: sample1.pl
+    terminal options:
+      audible bell: ''
+      back color: '#000000000000'
+      bold color: '#cc62cc62cc62'
+      bold color like text: 1
+      command prompt: '[#%\$>]|\:\/\s*$'
+      cursor shape: block
+      disable ALT key bindings: ''
+      disable CTRL key bindings: ''
+      disable SHIFT key bindings: ''
+      open in tab: 1
+      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
+      tab back color: '#000000000000'
+      terminal backspace: auto
+      terminal character encoding: UTF-8
+      terminal emulation: xterm
+      terminal font: Monospace 9
+      terminal scrollback lines: 5000
+      terminal select words: \.:_\/-A-Za-z0-9
+      terminal transparency: 0
+      terminal window hsize: 800
+      terminal window vsize: 600
+      text color: '#cc62cc62cc62'
+      timeout command: 40
+      timeout connect: 40
+      use personal settings: ''
+      use tab back color: ''
+      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
+      visible bell: ''
+    title: 'emt-rc - emt-01'
+    use prepend command: ''
+    use proxy: 0
+    use sudo: ''
+    user: ''
+    variables: []
+  8d31b40e-4627-4581-b654-9c91720ccf4a:
+    _is_group: 1
+    _protected: 0
+    children:
+      f701e9f6-eb1a-46f5-b71a-02146e3df968: 1
+    description: Connection group 'calcas-service'
+    name: calcas-service
+    parent: 755570a8-3600-443a-9025-83baf5ae8a74
+    screenshots: []
+  8db6ac2b-f861-4d8a-bf24-2cec7e055a08:
+    _is_group: 1
+    _protected: 0
+    children:
+      36cba1df-0c09-42b0-bac4-a5c61d105b0a: 1
+      857864c9-a987-435b-a454-68ca7210a574: 1
+    description: Connection group 'emt-rc'
+    name: emt-rc
+    parent: 6c2b4af8-fa45-44dc-8855-205f35a6ec51
+    screenshots: []
+  8e97a14c-7385-4456-a991-0c7c7d391f97:
+    KPX title regexp: '.*calcas - calcas-00.*'
+    _is_group: 0
+    _protected: 0
+    auth fallback: 1
+    auth type: publickey
+    autoreconnect: ''
+    autossh: ''
+    children: {}
+    cluster: []
+    description: Connection with 'uns-cass-05'
+    embed: 0
+    expect: []
+    favourite: 0
+    infer from KPX where: 3
+    infer user pass from KPX: ''
+    ip: uns-cass-00
+    local after: []
+    local before: []
+    local connected: []
+    mac: ''
+    macros: []
+    method: SSH
+    name: uns-cass-00
+    options: ' -X'
+    parent: 6eacc543-1090-4868-8dd8-1a7b24ffc2e8
+    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase user: despegar
+    port: 22
+    prepend command: ''
+    proxy ip: ''
+    proxy pass: ''
+    proxy port: 8080
+    proxy user: ''
+    public key: /home/taitooz/.ssh/keys/myKey
+    quote command: ''
+    remove control chars: ''
+    save session logs: ''
+    screenshots:
+      - '/home/taitooz/.config/pac/screenshots/pac_screenshot_28149923,2084108.jpg'
+    search pass on KPX: 0
+    send slow: 0
+    send string active: ''
+    send string every: 60
+    send string intro: 1
+    send string txt: ''
+    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
+    session logs amount: 10
+    session logs folder: /home/taitooz/.config/pac/session_logs
+    startup launch: ''
+    startup script: ''
+    startup script name: sample1.pl
+    terminal options:
+      audible bell: ''
+      back color: '#000000000000'
+      bold color: '#cc62cc62cc62'
+      bold color like text: 1
+      command prompt: '[#%\$>]|\:\/\s*$'
+      cursor shape: block
+      disable ALT key bindings: ''
+      disable CTRL key bindings: ''
+      disable SHIFT key bindings: ''
+      open in tab: 1
+      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
+      tab back color: '#000000000000'
+      terminal backspace: auto
+      terminal character encoding: UTF-8
+      terminal emulation: xterm
+      terminal font: Monospace 9
+      terminal scrollback lines: 5000
+      terminal select words: \.:_\/-A-Za-z0-9
+      terminal transparency: 0
+      terminal window hsize: 800
+      terminal window vsize: 600
+      text color: '#cc62cc62cc62'
+      timeout command: 40
+      timeout connect: 40
+      use personal settings: ''
+      use tab back color: ''
+      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
+      visible bell: ''
+    title: 'uns - uns-cass-00'
+    use prepend command: ''
+    use proxy: 0
+    use sudo: ''
+    user: ''
+    variables: []
+  927d2544-6ab7-4b02-a405-2e457f27640c:
+    KPX title regexp: '.*caronte - caronte-00.*'
+    _is_group: 0
+    _protected: 0
+    auth fallback: 1
+    auth type: publickey
+    autoreconnect: ''
+    autossh: ''
+    cluster: []
+    description: Connection with 'caronte-05'
+    embed: 0
+    expect: []
+    favourite: 0
+    infer from KPX where: 3
+    infer user pass from KPX: ''
+    ip: 10.70.167.70
+    local after: []
+    local before: []
+    local connected: []
+    mac: ''
+    macros: []
+    method: SSH
+    name: caronte-05
+    options: ' -X'
+    parent: b6ecdebd-b596-4a55-88ef-1bd10b67a7bc
+    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase user: despegar
+    port: 22
+    prepend command: ''
+    proxy ip: ''
+    proxy pass: ''
+    proxy port: 8080
+    proxy user: ''
+    public key: /home/taitooz/.ssh/keys/myKey
+    quote command: ''
+    remove control chars: ''
+    save session logs: ''
+    screenshots:
+      - '/home/taitooz/.config/pac/screenshots/pac_screenshot_47706869,0538674.jpg'
+    search pass on KPX: 0
+    send slow: 0
+    send string active: ''
+    send string every: 60
+    send string intro: 1
+    send string txt: ''
+    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
+    session logs amount: 10
+    session logs folder: /home/taitooz/.config/pac/session_logs
+    startup launch: ''
+    startup script: ''
+    startup script name: sample1.pl
+    terminal options:
+      audible bell: ''
+      back color: '#000000000000'
+      bold color: '#cc62cc62cc62'
+      bold color like text: 1
+      command prompt: '[#%\$>]|\:\/\s*$'
+      cursor shape: block
+      disable ALT key bindings: ''
+      disable CTRL key bindings: ''
+      disable SHIFT key bindings: ''
+      open in tab: 1
+      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
+      tab back color: '#000000000000'
+      terminal backspace: auto
+      terminal character encoding: UTF-8
+      terminal emulation: xterm
+      terminal font: Monospace 9
+      terminal scrollback lines: 5000
+      terminal select words: \.:_\/-A-Za-z0-9
+      terminal transparency: 0
+      terminal window hsize: 800
+      terminal window vsize: 600
+      text color: '#cc62cc62cc62'
+      timeout command: 40
+      timeout connect: 40
+      use personal settings: ''
+      use tab back color: ''
+      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
+      visible bell: ''
+    title: 'caronte - caronte-05'
+    use prepend command: ''
+    use proxy: 0
+    use sudo: ''
+    user: ''
+    variables: []
+  92e012ca-92a8-4259-a559-ed418f4dce19:
+    KPX title regexp: '.*calcas-cass-rc - calcas-cass-rc-00.*'
+    _is_group: 0
+    _protected: 0
+    auth fallback: 1
+    auth type: publickey
+    autoreconnect: ''
+    autossh: ''
+    cluster: []
+    description: Connection with 'calcas-cass-rc-00'
+    embed: 0
+    expect: []
+    favourite: 0
+    infer from KPX where: 3
+    infer user pass from KPX: ''
+    ip: 10.254.175.2
+    local after: []
+    local before: []
+    local connected: []
+    mac: ''
+    macros: []
+    method: SSH
+    name: calcas-cass-rc-00
+    options: ' -X'
+    parent: ffa56a01-8ee9-457a-a65e-85b7c985915f
+    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase user: despegar
+    port: 22
+    prepend command: ''
+    proxy ip: ''
+    proxy pass: ''
+    proxy port: 8080
+    proxy user: ''
+    public key: /home/taitooz/.ssh/keys/ba_myKey
+    quote command: ''
+    remove control chars: ''
+    save session logs: ''
+    screenshots:
+      - '/home/taitooz/.config/pac/screenshots/pac_screenshot_4761067,39388208.jpg'
+    search pass on KPX: 0
+    send slow: 0
+    send string active: ''
+    send string every: 60
+    send string intro: 1
+    send string txt: ''
+    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
+    session logs amount: 10
+    session logs folder: /home/taitooz/.config/pac/session_logs
+    startup launch: ''
+    startup script: ''
+    startup script name: sample1.pl
+    terminal options:
+      audible bell: ''
+      back color: '#000000000000'
+      bold color: '#cc62cc62cc62'
+      bold color like text: 1
+      command prompt: '[#%\$>]|\:\/\s*$'
+      cursor shape: block
+      disable ALT key bindings: ''
+      disable CTRL key bindings: ''
+      disable SHIFT key bindings: ''
+      open in tab: 1
+      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
+      tab back color: '#000000000000'
+      terminal backspace: auto
+      terminal character encoding: UTF-8
+      terminal emulation: xterm
+      terminal font: Monospace 9
+      terminal scrollback lines: 5000
+      terminal select words: \.:_\/-A-Za-z0-9
+      terminal transparency: 0
+      terminal window hsize: 800
+      terminal window vsize: 600
+      text color: '#cc62cc62cc62'
+      timeout command: 40
+      timeout connect: 40
+      use personal settings: ''
+      use tab back color: ''
+      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
+      visible bell: ''
+    title: 'calcas-cass-rc - calcas-cass-rc-00'
+    use prepend command: ''
+    use proxy: 0
+    use sudo: ''
+    user: ''
+    variables: []
+  __PAC_SHELL__:
+    KPX title regexp: .*PACShell.*
+    _protected: 0
+    auth fallback: 1
+    auth type: manual
+    autoreconnect: 0
+    autossh: 0
+    cluster: []
+    description: PACShell
+    embed: 0
+    expect: []
+    favourite: 0
+    ip: bash
+    local after: []
+    local before: []
+    local connected: []
+    mac: ''
+    macros: []
+    method: PACShell
+    name: PACShell
+    options: ''
+    parent: __PAC__ROOT__
+    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase user: ''
+    port: 22
+    prepend command: ''
+    proxy ip: ''
+    proxy pass: ''
+    proxy port: 8080
+    proxy user: ''
+    public key: ''
+    quote command: 0
+    remove control chars: 0
+    save session logs: 0
+    screenshots: []
+    search pass on KPX: 0
+    send slow: 0
+    send string active: 0
+    send string every: 60
+    send string intro: 1
+    send string txt: ''
+    session log pattern: PACShell_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
+    session logs amount: 10
+    session logs folder: /home/taitooz/.config/pac/session_logs
+    startup launch: 0
+    startup script: 0
+    startup script name: ''
+    terminal options:
+      audible bell: 0
+      back color: '#000000000000'
+      bold color: '#cc62cc62cc62'
+      bold color like text: 1
+      command prompt: '(\]\#|\$\s)+'
+      cursor shape: block
+      disable ALT key bindings: 0
+      disable CTRL key bindings: 0
+      disable SHIFT key bindings: 0
+      open in tab: 1
+      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
+      tab back color: '#000000000000'
+      terminal backspace: auto
+      terminal character encoding: UTF-8
+      terminal emulation: xterm
+      terminal font: Monospace 9
+      terminal scrollback lines: 5000
+      terminal select words: \.:_\/-A-Za-z0-9
+      terminal transparency: 0
+      terminal window hsize: 800
+      terminal window vsize: 600
+      text color: '#cc62cc62cc62'
+      timeout command: 40
+      timeout connect: 40
+      use personal settings: 0
+      use tab back color: 0
+      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
+      visible bell: 0
+    title: PACShell
+    use prepend command: 0
+    use proxy: 0
+    use sudo: 0
+    user: ''
+    variables: []
+  __PAC__ROOT__:
+    children:
+      1c0fa166-2a04-42d3-87e1-ef5db02295ca: 1
+      755570a8-3600-443a-9025-83baf5ae8a74: 1
+    cluster: []
+    expect: []
+    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    screenshots: []
+    variables: []
+  a9fa1ef4-c353-49fd-925c-9ec51a5af5ea:
+    _is_group: 1
+    _protected: 0
+    children:
+      1c1a9faf-173b-48fb-aa66-82fe108e4cd4: 1
+      6b0c06f8-a641-4624-af97-853de665ed77: 1
+    description: Connection group 'uns'
+    name: uns
+    parent: 6c2b4af8-fa45-44dc-8855-205f35a6ec51
+    screenshots: []
+  b4a937b6-0e49-4a88-9f0b-805e14924921:
+    KPX title regexp: '.*calcas - calcas-00.*'
+    _is_group: 0
+    _protected: 0
+    auth fallback: 1
+    auth type: publickey
+    autoreconnect: ''
+    autossh: ''
+    children: {}
+    cluster: []
+    description: Connection with 'calcas-02'
+    embed: 0
+    expect: []
+    favourite: 0
+    infer from KPX where: 3
+    infer user pass from KPX: ''
+    ip: calcas-02
+    local after: []
+    local before: []
+    local connected: []
+    mac: ''
+    macros: []
+    method: SSH
+    name: calcas-02
+    options: ' -X'
+    parent: d0db4674-c0cf-4c1d-b509-922cbe1a701c
+    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase user: despegar
+    port: 22
+    prepend command: ''
+    proxy ip: ''
+    proxy pass: ''
+    proxy port: 8080
+    proxy user: ''
+    public key: /home/taitooz/.ssh/keys/myKey
+    quote command: ''
+    remove control chars: ''
+    save session logs: ''
+    screenshots:
+      - '/home/taitooz/.config/pac/screenshots/pac_screenshot_91652935,7422329.jpg'
+    search pass on KPX: 0
+    send slow: 0
+    send string active: ''
+    send string every: 60
+    send string intro: 1
+    send string txt: ''
+    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
+    session logs amount: 10
+    session logs folder: /home/taitooz/.config/pac/session_logs
+    startup launch: ''
+    startup script: ''
+    startup script name: sample1.pl
+    terminal options:
+      audible bell: ''
+      back color: '#000000000000'
+      bold color: '#cc62cc62cc62'
+      bold color like text: 1
+      command prompt: '[#%\$>]|\:\/\s*$'
+      cursor shape: block
+      disable ALT key bindings: ''
+      disable CTRL key bindings: ''
+      disable SHIFT key bindings: ''
+      open in tab: 1
+      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
+      tab back color: '#000000000000'
+      terminal backspace: auto
+      terminal character encoding: UTF-8
+      terminal emulation: xterm
+      terminal font: Monospace 9
+      terminal scrollback lines: 5000
+      terminal select words: \.:_\/-A-Za-z0-9
+      terminal transparency: 0
+      terminal window hsize: 800
+      terminal window vsize: 600
+      text color: '#cc62cc62cc62'
+      timeout command: 40
+      timeout connect: 40
+      use personal settings: ''
+      use tab back color: ''
+      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
+      visible bell: ''
+    title: 'calcas - calcas-02'
+    use prepend command: ''
+    use proxy: 0
+    use sudo: ''
+    user: ''
+    variables: []
+  b6ecdebd-b596-4a55-88ef-1bd10b67a7bc:
+    _is_group: 1
+    _protected: 0
+    children:
+      5ab92830-2e1a-4da0-919d-fad11ef836b4: 1
+      63eb298f-d7db-4fa4-b797-3f527d8f3157: 1
+      927d2544-6ab7-4b02-a405-2e457f27640c: 1
+      f7a67b75-aac9-41fa-b886-c0d948861322: 1
+    description: Connection group 'caronte'
+    name: caronte
+    parent: 755570a8-3600-443a-9025-83baf5ae8a74
+    screenshots: []
+  c9b847f4-8a90-45b7-9f58-89c165dc3dc9:
+    KPX title regexp: '.*calcas - calcas-00.*'
+    _is_group: 0
+    _protected: 0
+    auth fallback: 1
+    auth type: publickey
+    autoreconnect: ''
+    autossh: ''
+    children: {}
+    cluster: []
+    description: Connection with 'uns-cass-05'
+    embed: 0
+    expect: []
+    favourite: 0
+    infer from KPX where: 3
+    infer user pass from KPX: ''
+    ip: uns-cass-05
+    local after: []
+    local before: []
+    local connected: []
+    mac: ''
+    macros: []
+    method: SSH
+    name: uns-cass-05
+    options: ' -X'
+    parent: 6eacc543-1090-4868-8dd8-1a7b24ffc2e8
+    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase user: despegar
+    port: 22
+    prepend command: ''
+    proxy ip: ''
+    proxy pass: ''
+    proxy port: 8080
+    proxy user: ''
+    public key: /home/taitooz/.ssh/keys/myKey
+    quote command: ''
+    remove control chars: ''
+    save session logs: ''
+    screenshots:
+      - '/home/taitooz/.config/pac/screenshots/pac_screenshot_20371617,42559.jpg'
+    search pass on KPX: 0
+    send slow: 0
+    send string active: ''
+    send string every: 60
+    send string intro: 1
+    send string txt: ''
+    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
+    session logs amount: 10
+    session logs folder: /home/taitooz/.config/pac/session_logs
+    startup launch: ''
+    startup script: ''
+    startup script name: sample1.pl
+    terminal options:
+      audible bell: ''
+      back color: '#000000000000'
+      bold color: '#cc62cc62cc62'
+      bold color like text: 1
+      command prompt: '[#%\$>]|\:\/\s*$'
+      cursor shape: block
+      disable ALT key bindings: ''
+      disable CTRL key bindings: ''
+      disable SHIFT key bindings: ''
+      open in tab: 1
+      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
+      tab back color: '#000000000000'
+      terminal backspace: auto
+      terminal character encoding: UTF-8
+      terminal emulation: xterm
+      terminal font: Monospace 9
+      terminal scrollback lines: 5000
+      terminal select words: \.:_\/-A-Za-z0-9
+      terminal transparency: 0
+      terminal window hsize: 800
+      terminal window vsize: 600
+      text color: '#cc62cc62cc62'
+      timeout command: 40
+      timeout connect: 40
+      use personal settings: ''
+      use tab back color: ''
+      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
+      visible bell: ''
+    title: 'uns - uns-cass-05'
+    use prepend command: ''
+    use proxy: 0
+    use sudo: ''
+    user: ''
+    variables: []
+  cded9b56-0e17-48af-be38-c90c078ccf3c:
+    _is_group: 1
+    _protected: 0
+    children:
+      0bec4f17-ac75-4bb4-8d53-02e1738f56d6: 1
+      24413ca9-ee94-4674-9a71-cc0713b55d81: 1
+      2b56dcb4-095e-4515-9f18-b6e40364ece1: 1
+    description: Connection group 'poc'
+    name: poc
+    parent: 6c2b4af8-fa45-44dc-8855-205f35a6ec51
+    screenshots: []
+  d0db4674-c0cf-4c1d-b509-922cbe1a701c:
+    _is_group: 1
+    _protected: 0
+    children:
+      2212e06e-6125-4c6c-a951-aedbff6acb0a: 1
+      b4a937b6-0e49-4a88-9f0b-805e14924921: 1
+      e3d15cd5-e72d-4672-bdea-048b584f579b: 1
+      edcd8657-3f11-4288-a2fd-be0338efae82: 1
+      ee5255c5-3476-4939-b4ba-22e934f92921: 1
+    description: Connection group 'calcas'
+    name: calcas
+    parent: 755570a8-3600-443a-9025-83baf5ae8a74
+    screenshots: []
+  db9b717b-fb2e-45c2-aa5d-9bb246812f55:
+    KPX title regexp: '.*calcas-cass-rc - calcas-cass-rc-00.*'
+    _is_group: 0
+    _protected: 0
+    auth fallback: 1
+    auth type: publickey
+    autoreconnect: ''
+    autossh: ''
+    children: {}
+    cluster: []
+    description: Connection with 'calcas-cass-rc-01'
+    embed: 0
+    expect: []
+    favourite: 0
+    infer from KPX where: 3
+    infer user pass from KPX: ''
+    ip: 10.254.170.146
+    local after: []
+    local before: []
+    local connected: []
+    mac: ''
+    macros: []
+    method: SSH
+    name: calcas-cass-rc-01
+    options: ' -X'
+    parent: ffa56a01-8ee9-457a-a65e-85b7c985915f
+    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase user: despegar
+    port: 22
+    prepend command: ''
+    proxy ip: ''
+    proxy pass: ''
+    proxy port: 8080
+    proxy user: ''
+    public key: /home/taitooz/.ssh/keys/ba_myKey
+    quote command: ''
+    remove control chars: ''
+    save session logs: ''
+    screenshots:
+      - '/home/taitooz/.config/pac/screenshots/pac_screenshot_78091812,4541192.jpg'
+    search pass on KPX: 0
+    send slow: 0
+    send string active: ''
+    send string every: 60
+    send string intro: 1
+    send string txt: ''
+    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
+    session logs amount: 10
+    session logs folder: /home/taitooz/.config/pac/session_logs
+    startup launch: ''
+    startup script: ''
+    startup script name: sample1.pl
+    terminal options:
+      audible bell: ''
+      back color: '#000000000000'
+      bold color: '#cc62cc62cc62'
+      bold color like text: 1
+      command prompt: '[#%\$>]|\:\/\s*$'
+      cursor shape: block
+      disable ALT key bindings: ''
+      disable CTRL key bindings: ''
+      disable SHIFT key bindings: ''
+      open in tab: 1
+      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
+      tab back color: '#000000000000'
+      terminal backspace: auto
+      terminal character encoding: UTF-8
+      terminal emulation: xterm
+      terminal font: Monospace 9
+      terminal scrollback lines: 5000
+      terminal select words: \.:_\/-A-Za-z0-9
+      terminal transparency: 0
+      terminal window hsize: 800
+      terminal window vsize: 600
+      text color: '#cc62cc62cc62'
+      timeout command: 40
+      timeout connect: 40
+      use personal settings: ''
+      use tab back color: ''
+      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
+      visible bell: ''
+    title: 'calcas-cass-rc - calcas-cass-rc-01'
+    use prepend command: ''
+    use proxy: 0
+    use sudo: ''
+    user: ''
+    variables: []
+  dbc05688-d29a-4360-9f0a-ba8f98f5620a:
+    KPX title regexp: '.*emt - emt-06.*'
+    _is_group: 0
+    _protected: 0
+    auth fallback: 1
+    auth type: publickey
+    autoreconnect: ''
+    autossh: ''
+    children: {}
+    cluster: []
+    description: Connection with 'emt-06'
+    embed: 0
+    expect: []
+    favourite: 0
+    infer from KPX where: 3
+    infer user pass from KPX: ''
+    ip: emt-07
+    local after: []
+    local before: []
+    local connected: []
+    mac: ''
+    macros: []
+    method: SSH
+    name: emt-07
+    options: ' -X'
+    parent: 03e5d85b-d85b-4365-99ce-692a52c046eb
+    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase user: despegar
+    port: 22
+    prepend command: ''
+    proxy ip: ''
+    proxy pass: ''
+    proxy port: 8080
+    proxy user: ''
+    public key: /home/taitooz/.ssh/keys/myKey
+    quote command: ''
+    remove control chars: ''
+    save session logs: ''
+    screenshots:
+      - '/home/taitooz/.config/pac/screenshots/pac_screenshot_6998684,85290664.jpg'
+    search pass on KPX: 0
+    send slow: 0
+    send string active: ''
+    send string every: 60
+    send string intro: 1
+    send string txt: ''
+    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
+    session logs amount: 10
+    session logs folder: /home/taitooz/.config/pac/session_logs
+    startup launch: ''
+    startup script: ''
+    startup script name: sample1.pl
+    terminal options:
+      audible bell: ''
+      back color: '#000000000000'
+      bold color: '#cc62cc62cc62'
+      bold color like text: 1
+      command prompt: '[#%\$>]|\:\/\s*$'
+      cursor shape: block
+      disable ALT key bindings: ''
+      disable CTRL key bindings: ''
+      disable SHIFT key bindings: ''
+      open in tab: 1
+      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
+      tab back color: '#000000000000'
+      terminal backspace: auto
+      terminal character encoding: UTF-8
+      terminal emulation: xterm
+      terminal font: Monospace 9
+      terminal scrollback lines: 5000
+      terminal select words: \.:_\/-A-Za-z0-9
+      terminal transparency: 0
+      terminal window hsize: 800
+      terminal window vsize: 600
+      text color: '#cc62cc62cc62'
+      timeout command: 40
+      timeout connect: 40
+      use personal settings: ''
+      use tab back color: ''
+      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
+      visible bell: ''
+    title: 'emt - emt-07'
+    use prepend command: ''
+    use proxy: 0
+    use sudo: ''
+    user: ''
+    variables: []
+  ddfac9c9-3ff9-486f-877e-6677a9287ed4:
+    KPX title regexp: '.*RC - caronte-rc.*'
+    _is_group: 0
+    _protected: 0
+    auth fallback: 1
+    auth type: publickey
+    autoreconnect: ''
+    autossh: ''
+    children: {}
+    cluster: []
+    description: Connection with 'caronte-rc'
+    embed: 0
+    expect: []
+    favourite: 0
+    infer from KPX where: 3
+    infer user pass from KPX: ''
+    ip: 10.254.174.192
+    local after: []
+    local before: []
+    local connected: []
+    mac: ''
+    macros: []
+    method: SSH
+    name: caronte-rc
+    options: ' -X'
+    parent: 6c2b4af8-fa45-44dc-8855-205f35a6ec51
+    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase user: despegar
+    port: 22
+    prepend command: ''
+    proxy ip: ''
+    proxy pass: ''
+    proxy port: 8080
+    proxy user: ''
+    public key: /home/taitooz/.ssh/keys/ba_myKey
+    quote command: ''
+    remove control chars: ''
+    save session logs: ''
+    screenshots:
+      - '/home/taitooz/.config/pac/screenshots/pac_screenshot_14752388,7857372.jpg'
+    search pass on KPX: 0
+    send slow: 0
+    send string active: ''
+    send string every: 60
+    send string intro: 1
+    send string txt: ''
+    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
+    session logs amount: 10
+    session logs folder: /home/taitooz/.config/pac/session_logs
+    startup launch: ''
+    startup script: ''
+    startup script name: sample1.pl
+    terminal options:
+      audible bell: ''
+      back color: '#000000000000'
+      bold color: '#cc62cc62cc62'
+      bold color like text: 1
+      command prompt: '[#%\$>]|\:\/\s*$'
+      cursor shape: block
+      disable ALT key bindings: ''
+      disable CTRL key bindings: ''
+      disable SHIFT key bindings: ''
+      open in tab: 1
+      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
+      tab back color: '#000000000000'
+      terminal backspace: auto
+      terminal character encoding: UTF-8
+      terminal emulation: xterm
+      terminal font: Monospace 9
+      terminal scrollback lines: 5000
+      terminal select words: \.:_\/-A-Za-z0-9
+      terminal transparency: 0
+      terminal window hsize: 800
+      terminal window vsize: 600
+      text color: '#cc62cc62cc62'
+      timeout command: 40
+      timeout connect: 40
+      use personal settings: ''
+      use tab back color: ''
+      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
+      visible bell: ''
+    title: 'RC - caronte-rc'
+    use prepend command: ''
+    use proxy: 0
+    use sudo: ''
+    user: ''
+    variables: []
+  e3d15cd5-e72d-4672-bdea-048b584f579b:
+    KPX title regexp: '.*calcas - calcas-00.*'
+    _is_group: 0
+    _protected: 0
+    auth fallback: 1
+    auth type: publickey
+    autoreconnect: ''
+    autossh: ''
+    children: {}
+    cluster: []
+    description: Connection with 'calcas-03'
+    embed: 0
+    expect: []
+    favourite: 0
+    infer from KPX where: 3
+    infer user pass from KPX: ''
+    ip: calcas-03
+    local after: []
+    local before: []
+    local connected: []
+    mac: ''
+    macros: []
+    method: SSH
+    name: calcas-03
+    options: ' -X'
+    parent: d0db4674-c0cf-4c1d-b509-922cbe1a701c
+    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase user: despegar
+    port: 22
+    prepend command: ''
+    proxy ip: ''
+    proxy pass: ''
+    proxy port: 8080
+    proxy user: ''
+    public key: /home/taitooz/.ssh/keys/myKey
+    quote command: ''
+    remove control chars: ''
+    save session logs: ''
+    screenshots:
+      - '/home/taitooz/.config/pac/screenshots/pac_screenshot_12559489,5080102.jpg'
+    search pass on KPX: 0
+    send slow: 0
+    send string active: ''
+    send string every: 60
+    send string intro: 1
+    send string txt: ''
+    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
+    session logs amount: 10
+    session logs folder: /home/taitooz/.config/pac/session_logs
+    startup launch: ''
+    startup script: ''
+    startup script name: sample1.pl
+    terminal options:
+      audible bell: ''
+      back color: '#000000000000'
+      bold color: '#cc62cc62cc62'
+      bold color like text: 1
+      command prompt: '[#%\$>]|\:\/\s*$'
+      cursor shape: block
+      disable ALT key bindings: ''
+      disable CTRL key bindings: ''
+      disable SHIFT key bindings: ''
+      open in tab: 1
+      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
+      tab back color: '#000000000000'
+      terminal backspace: auto
+      terminal character encoding: UTF-8
+      terminal emulation: xterm
+      terminal font: Monospace 9
+      terminal scrollback lines: 5000
+      terminal select words: \.:_\/-A-Za-z0-9
+      terminal transparency: 0
+      terminal window hsize: 800
+      terminal window vsize: 600
+      text color: '#cc62cc62cc62'
+      timeout command: 40
+      timeout connect: 40
+      use personal settings: ''
+      use tab back color: ''
+      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
+      visible bell: ''
+    title: 'calcas - calcas-03'
+    use prepend command: ''
+    use proxy: 0
+    use sudo: ''
+    user: ''
+    variables: []
+  edcd8657-3f11-4288-a2fd-be0338efae82:
+    KPX title regexp: '.*calcas - calcas-00.*'
+    _is_group: 0
+    _protected: 0
+    auth fallback: 1
+    auth type: publickey
+    autoreconnect: ''
+    autossh: ''
+    children: {}
+    cluster: []
+    description: Connection with 'calcas-00'
+    embed: 0
+    expect: []
+    favourite: 0
+    infer from KPX where: 3
+    infer user pass from KPX: ''
+    ip: calcas-00
+    local after: []
+    local before: []
+    local connected: []
+    mac: ''
+    macros: []
+    method: SSH
+    name: calcas-00
+    options: ' -X'
+    parent: d0db4674-c0cf-4c1d-b509-922cbe1a701c
+    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase user: despegar
+    port: 22
+    prepend command: ''
+    proxy ip: ''
+    proxy pass: ''
+    proxy port: 8080
+    proxy user: ''
+    public key: /home/taitooz/.ssh/keys/myKey
+    quote command: ''
+    remove control chars: ''
+    save session logs: ''
+    screenshots:
+      - '/home/taitooz/.config/pac/screenshots/pac_screenshot_107764541,10886.jpg'
+    search pass on KPX: 0
+    send slow: 0
+    send string active: ''
+    send string every: 60
+    send string intro: 1
+    send string txt: ''
+    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
+    session logs amount: 10
+    session logs folder: /home/taitooz/.config/pac/session_logs
+    startup launch: ''
+    startup script: ''
+    startup script name: sample1.pl
+    terminal options:
+      audible bell: ''
+      back color: '#000000000000'
+      bold color: '#cc62cc62cc62'
+      bold color like text: 1
+      command prompt: '[#%\$>]|\:\/\s*$'
+      cursor shape: block
+      disable ALT key bindings: ''
+      disable CTRL key bindings: ''
+      disable SHIFT key bindings: ''
+      open in tab: 1
+      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
+      tab back color: '#000000000000'
+      terminal backspace: auto
+      terminal character encoding: UTF-8
+      terminal emulation: xterm
+      terminal font: Monospace 9
+      terminal scrollback lines: 5000
+      terminal select words: \.:_\/-A-Za-z0-9
+      terminal transparency: 0
+      terminal window hsize: 800
+      terminal window vsize: 600
+      text color: '#cc62cc62cc62'
+      timeout command: 40
+      timeout connect: 40
+      use personal settings: ''
+      use tab back color: ''
+      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
+      visible bell: ''
+    title: 'calcas - calcas-00'
+    use prepend command: ''
+    use proxy: 0
+    use sudo: ''
+    user: ''
+    variables: []
+  ee5255c5-3476-4939-b4ba-22e934f92921:
+    KPX title regexp: '.*calcas - calcas-00.*'
+    _is_group: 0
+    _protected: 0
+    auth fallback: 1
+    auth type: publickey
+    autoreconnect: ''
+    autossh: ''
+    children: {}
+    cluster: []
+    description: Connection with 'calcas-01'
+    embed: 0
+    expect: []
+    favourite: 0
+    infer from KPX where: 3
+    infer user pass from KPX: ''
+    ip: calcas-01
+    local after: []
+    local before: []
+    local connected: []
+    mac: ''
+    macros: []
+    method: SSH
+    name: calcas-01
+    options: ' -X'
+    parent: d0db4674-c0cf-4c1d-b509-922cbe1a701c
+    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase user: despegar
+    port: 22
+    prepend command: ''
+    proxy ip: ''
+    proxy pass: ''
+    proxy port: 8080
+    proxy user: ''
+    public key: /home/taitooz/.ssh/keys/myKey
+    quote command: ''
+    remove control chars: ''
+    save session logs: ''
+    screenshots:
+      - '/home/taitooz/.config/pac/screenshots/pac_screenshot_111375142,921565.jpg'
+    search pass on KPX: 0
+    send slow: 0
+    send string active: ''
+    send string every: 60
+    send string intro: 1
+    send string txt: ''
+    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
+    session logs amount: 10
+    session logs folder: /home/taitooz/.config/pac/session_logs
+    startup launch: ''
+    startup script: ''
+    startup script name: sample1.pl
+    terminal options:
+      audible bell: ''
+      back color: '#000000000000'
+      bold color: '#cc62cc62cc62'
+      bold color like text: 1
+      command prompt: '[#%\$>]|\:\/\s*$'
+      cursor shape: block
+      disable ALT key bindings: ''
+      disable CTRL key bindings: ''
+      disable SHIFT key bindings: ''
+      open in tab: 1
+      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
+      tab back color: '#000000000000'
+      terminal backspace: auto
+      terminal character encoding: UTF-8
+      terminal emulation: xterm
+      terminal font: Monospace 9
+      terminal scrollback lines: 5000
+      terminal select words: \.:_\/-A-Za-z0-9
+      terminal transparency: 0
+      terminal window hsize: 800
+      terminal window vsize: 600
+      text color: '#cc62cc62cc62'
+      timeout command: 40
+      timeout connect: 40
+      use personal settings: ''
+      use tab back color: ''
+      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
+      visible bell: ''
+    title: 'calcas - calcas-01'
+    use prepend command: ''
+    use proxy: 0
+    use sudo: ''
+    user: ''
+    variables: []
+  f701e9f6-eb1a-46f5-b71a-02146e3df968:
+    KPX title regexp: '.*calcas - calcas-00.*'
+    _is_group: 0
+    _protected: 0
+    auth fallback: 1
+    auth type: publickey
+    autoreconnect: ''
+    autossh: ''
+    children: {}
+    cluster: []
+    description: Connection with 'calcas-service-00'
+    embed: 0
+    expect: []
+    favourite: 0
+    infer from KPX where: 3
+    infer user pass from KPX: ''
+    ip: calcas-service-00
+    local after: []
+    local before: []
+    local connected: []
+    mac: ''
+    macros: []
+    method: SSH
+    name: calcas-service-00
+    options: ' -X'
+    parent: 8d31b40e-4627-4581-b654-9c91720ccf4a
+    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase user: despegar
+    port: 22
+    prepend command: ''
+    proxy ip: ''
+    proxy pass: ''
+    proxy port: 8080
+    proxy user: ''
+    public key: /home/taitooz/.ssh/keys/myKey
+    quote command: ''
+    remove control chars: ''
+    save session logs: ''
+    screenshots:
+      - '/home/taitooz/.config/pac/screenshots/pac_screenshot_45132181,6560672.jpg'
+    search pass on KPX: 0
+    send slow: 0
+    send string active: ''
+    send string every: 60
+    send string intro: 1
+    send string txt: ''
+    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
+    session logs amount: 10
+    session logs folder: /home/taitooz/.config/pac/session_logs
+    startup launch: ''
+    startup script: ''
+    startup script name: sample1.pl
+    terminal options:
+      audible bell: ''
+      back color: '#000000000000'
+      bold color: '#cc62cc62cc62'
+      bold color like text: 1
+      command prompt: '[#%\$>]|\:\/\s*$'
+      cursor shape: block
+      disable ALT key bindings: ''
+      disable CTRL key bindings: ''
+      disable SHIFT key bindings: ''
+      open in tab: 1
+      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
+      tab back color: '#000000000000'
+      terminal backspace: auto
+      terminal character encoding: UTF-8
+      terminal emulation: xterm
+      terminal font: Monospace 9
+      terminal scrollback lines: 5000
+      terminal select words: \.:_\/-A-Za-z0-9
+      terminal transparency: 0
+      terminal window hsize: 800
+      terminal window vsize: 600
+      text color: '#cc62cc62cc62'
+      timeout command: 40
+      timeout connect: 40
+      use personal settings: ''
+      use tab back color: ''
+      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
+      visible bell: ''
+    title: 'calcas-service - calcas-service-00'
+    use prepend command: ''
+    use proxy: 0
+    use sudo: ''
+    user: ''
+    variables: []
+  f7a67b75-aac9-41fa-b886-c0d948861322:
+    KPX title regexp: '.*caronte - caronte-00.*'
+    _is_group: 0
+    _protected: 0
+    auth fallback: 1
+    auth type: publickey
+    autoreconnect: ''
+    autossh: ''
+    children: {}
+    cluster: []
+    description: Connection with 'caronte-00'
+    embed: 0
+    expect: []
+    favourite: 0
+    infer from KPX where: 3
+    infer user pass from KPX: ''
+    ip: caronte-01
+    local after: []
+    local before: []
+    local connected: []
+    mac: ''
+    macros: []
+    method: SSH
+    name: caronte-01
+    options: ' -X'
+    parent: b6ecdebd-b596-4a55-88ef-1bd10b67a7bc
+    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase user: despegar
+    port: 22
+    prepend command: ''
+    proxy ip: ''
+    proxy pass: ''
+    proxy port: 8080
+    proxy user: ''
+    public key: /home/taitooz/.ssh/keys/myKey
+    quote command: ''
+    remove control chars: ''
+    save session logs: ''
+    screenshots:
+      - '/home/taitooz/.config/pac/screenshots/pac_screenshot_62545283,8064251.jpg'
+    search pass on KPX: 0
+    send slow: 0
+    send string active: ''
+    send string every: 60
+    send string intro: 1
+    send string txt: ''
+    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
+    session logs amount: 10
+    session logs folder: /home/taitooz/.config/pac/session_logs
+    startup launch: ''
+    startup script: ''
+    startup script name: sample1.pl
+    terminal options:
+      audible bell: ''
+      back color: '#000000000000'
+      bold color: '#cc62cc62cc62'
+      bold color like text: 1
+      command prompt: '[#%\$>]|\:\/\s*$'
+      cursor shape: block
+      disable ALT key bindings: ''
+      disable CTRL key bindings: ''
+      disable SHIFT key bindings: ''
+      open in tab: 1
+      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
+      tab back color: '#000000000000'
+      terminal backspace: auto
+      terminal character encoding: UTF-8
+      terminal emulation: xterm
+      terminal font: Monospace 9
+      terminal scrollback lines: 5000
+      terminal select words: \.:_\/-A-Za-z0-9
+      terminal transparency: 0
+      terminal window hsize: 800
+      terminal window vsize: 600
+      text color: '#cc62cc62cc62'
+      timeout command: 40
+      timeout connect: 40
+      use personal settings: ''
+      use tab back color: ''
+      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
+      visible bell: ''
+    title: 'caronte - caronte-01'
+    use prepend command: ''
+    use proxy: 0
+    use sudo: ''
+    user: ''
+    variables: []
+  ffa56a01-8ee9-457a-a65e-85b7c985915f:
+    _is_group: 1
+    _protected: 0
+    children:
+      92e012ca-92a8-4259-a559-ed418f4dce19: 1
+      db9b717b-fb2e-45c2-aa5d-9bb246812f55: 1
+    description: Connection group 'calcas-cass-rc'
+    name: calcas-cass-rc
+    parent: 6c2b4af8-fa45-44dc-8855-205f35a6ec51
+    screenshots: []
+tmp:
+  changed: 0
+  log file: /home/taitooz/.config/pac/tmp/pac_PID4163_n8.txt
+  socket: /home/taitooz/.config/pac/sockets/pac_PID4163_n8.socket
+  socket exec: /home/taitooz/.config/pac/sockets/pac_PID4163_n8.exec.socket
+  tray available: warning
+  uuid: pac_PID4163_n8

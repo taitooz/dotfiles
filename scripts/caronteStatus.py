@@ -7,7 +7,7 @@ total = 0
 avg = 0
 rpm = 0
 coned = 0
-for i in [0, 1, 2]:
+for i in [0, 1, 4, 5]:
     clients = json.load(urllib2.urlopen("http://caronte-0"+ str(i) +":9290/v3/caronte/client-status"))
     system = json.load(urllib2.urlopen("http://caronte-0"+ str(i) +":9290/v3/caronte/system-status"))
     print "\033[95m--------------------------------\n"

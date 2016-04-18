@@ -144,7 +144,7 @@ export JAVA_HOME=$HOME/java/jdk1.8.0_40
 #export M2_REPO=/home/taitooz/.m2
 #export M2=$M2_HOME/bin
 
-export M2_HOME=$HOME/java/apache-maven-3.3.9
+export M2_HOME=$HOME/java/apache-maven
 export M2_REPO=$HOME/.m2
 export M2=$M2_HOME/bin
 

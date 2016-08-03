@@ -131,10 +131,9 @@ GIT_COMMITTER_NAME="Emiliano Lourbet"
 GIT_AUTHOR_NAME="Emiliano Lourbet"
 
 #java env
-#export JAVA_HOME=$HOME/java/jdk1.6.0_32
 #export JAVA_HOME=$HOME/java/jdk1.6.0_45
-#export JAVA_HOME=$HOME/java/jdk1.7.0_25
-export JAVA_HOME=$HOME/java/jdk1.8.0_40
+#export JAVA_HOME=$HOME/java/jdk1.7.0_79
+export JAVA_HOME=$HOME/java/jdk1.8.0_92
 
 #scala home
 #export SCALA_HOME=$HOME/scala/scala-2.11.2 
@@ -161,7 +160,7 @@ export SVN_EDITOR=vim
 export CASSANDRA_HOME=~/cassandra/apache-cassandra-2.1.4
 export PATH=$PATH:$CASSANDRA_HOME/bin
 
-export HADOOP_HOME=$HOME/java/hadoop-2.7.0
+#export HADOOP_HOME=$HOME/java/hadoop-2.7.0
 
 #proxy
 #export http_proxy=http://proxy.corp.globant.com:3128
@@ -171,20 +170,26 @@ export HADOOP_HOME=$HOME/java/hadoop-2.7.0
 
 export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:/usr/share/pkgconfig"
 #PATH
-PATH=$PATH:$M2:${ANT_HOME}/bin:$HOME/scripts:$HOME/pScripts:$JAVA_HOME/bin:spark-1.5.0-bin-hadoop2.6/bin/:/usr/local/go/bin
+PATH=$PATH:$M2:${ANT_HOME}/bin:$HOME/scripts:$HOME/pScripts:/opt/network_connect/
+PATH=$PATH:/home/taitooz/spark-1.5.0-bin-hadoop2.6/bin
+#export PYSPARK_DRIVER_PYTHON=ipython
+#export PYSPARK_DRIVER_PYTHON_OPTS='notebook' pyspark
 
 #NODE NVM
 [ -s $HOME/.nvm/nvm.sh ] && . $HOME/.nvm/nvm.sh # This loads NVM
 #nvm use v0.10.35
 #nvm use v0.10.28
 
-
-
-
 #mandel.sh
-#consoleCLock
-#history | awk '{a[$2]++}END{for(i in a){print a[i] " " i}}' | sort -rn | head
+history | awk '{a[$2]++}END{for(i in a){print a[i] " " i}}' | sort -rn | head
 #remove beep 
 xset b off
 xset b 0 0 0
+export PATH=$PATH:/home/despegar/spark-1.5.0-bin-hadoop2.6/bin
+export SPARK_HOME="/home/despegar/spark-1.5.0-bin-hadoop2.6"
+export PYTHONPATH=$SPARK_HOME/python/:$PYTHONPATH
 
+
+
+export AWT_TOOLKIT=MToolkit
+export _JAVA_AWT_WM_NONREPARENTING=1

@@ -1,2 +1,2 @@
 #!/bin/bash
-nohup /usr/share/dbeaver/dbeaver &
+nohup /home/taitooz/programs/dbeaver/dbeaver &
